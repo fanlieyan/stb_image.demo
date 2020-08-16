@@ -143,8 +143,8 @@ int resize_image(const char *pInPath, const char *pOutPath, const float lResizeR
 	stbir_resize(pImageData, iWidth, iHeight, 0, pOutImageData, iOutWidth, iOutHeight, 0, 
 				STBIR_TYPE_UINT8, iColorChn, STBIR_ALPHA_CHANNEL_NONE, 0,
 				STBIR_EDGE_CLAMP, STBIR_EDGE_CLAMP,
-                STBIR_FILTER_BOX, STBIR_FILTER_BOX,
-                STBIR_COLORSPACE_SRGB, NULL);
+				STBIR_FILTER_BOX, STBIR_FILTER_BOX,
+				STBIR_COLORSPACE_SRGB, NULL);
 	
 	stbi_write_png(pOutPath, iOutWidth, iOutHeight, iColorChn, pOutImageData, 0);
 
