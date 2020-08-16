@@ -1,0 +1,874 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOL	src/image_self.c	/^typedef int BOOL;$/;"	t	file:
+BUFF_LEN	src/image_self.c	/^#define BUFF_LEN /;"	d	file:
+CC	Makefile	/^CC = $(vCCPREFIX)gcc$/;"	m
+COMM_DEBUG	src/image_self.c	/^#define COMM_DEBUG /;"	d	file:
+ERR	src/image_self.c	/^#define ERR /;"	d	file:
+FALSE	src/image_self.c	/^#define FALSE /;"	d	file:
+FAST_BITS	include/stb_image/stb_image.h	/^#define FAST_BITS /;"	d
+IF_EQ	src/image_self.c	/^#define IF_EQ(/;"	d	file:
+IF_GT	src/image_self.c	/^#define IF_GT(/;"	d	file:
+IF_LT	src/image_self.c	/^#define IF_LT(/;"	d	file:
+INCLUDE_STB_IMAGE_WRITE_H	include/stb_image/stb_image_write.h	/^#define INCLUDE_STB_IMAGE_WRITE_H$/;"	d
+INIT_A	src/image_self.c	/^#define INIT_A(/;"	d	file:
+INIT_P	src/image_self.c	/^#define INIT_P(/;"	d	file:
+INIT_S	src/image_self.c	/^#define INIT_S(/;"	d	file:
+MAX	src/image_self.c	/^#define MAX(/;"	d	file:
+MAX_COUNT	src/image_self.c	/^#define MAX_COUNT /;"	d	file:
+MIN	src/image_self.c	/^#define MIN(/;"	d	file:
+OK	src/image_self.c	/^#define OK /;"	d	file:
+OVERWRITE_ARRAY_SIZE	include/stb_image/stb_image_resize.h	/^#define OVERWRITE_ARRAY_SIZE /;"	d
+PDBG_C	src/image_self.c	/^#define PDBG_C(/;"	d	file:
+PDBG_I	src/image_self.c	/^#define PDBG_I(/;"	d	file:
+PDBG_S	src/image_self.c	/^#define PDBG_S(/;"	d	file:
+POUT_C	src/image_self.c	/^#define POUT_C(/;"	d	file:
+POUT_CL	src/image_self.c	/^#define POUT_CL(/;"	d	file:
+POUT_I	src/image_self.c	/^#define POUT_I(/;"	d	file:
+POUT_IL	src/image_self.c	/^#define POUT_IL(/;"	d	file:
+POUT_S	src/image_self.c	/^#define POUT_S(/;"	d	file:
+POUT_SL	src/image_self.c	/^#define POUT_SL(/;"	d	file:
+RET_R	src/image_self.c	/^#define RET_R(/;"	d	file:
+RET_V	src/image_self.c	/^#define RET_V(/;"	d	file:
+SAFE_FREE	src/image_self.c	/^#define SAFE_FREE(/;"	d	file:
+STBIDEF	include/stb_image/stb_image.h	/^#define STBIDEF /;"	d
+STBIRDEF	include/stb_image/stb_image_resize.h	/^#define STBIRDEF /;"	d
+STBIR_ALPHA_CHANNEL_NONE	include/stb_image/stb_image_resize.h	/^#define STBIR_ALPHA_CHANNEL_NONE /;"	d
+STBIR_ALPHA_EPSILON	include/stb_image/stb_image_resize.h	/^#define STBIR_ALPHA_EPSILON /;"	d
+STBIR_ASSERT	include/stb_image/stb_image_resize.h	/^#define STBIR_ASSERT(/;"	d
+STBIR_COLORSPACE_LINEAR	include/stb_image/stb_image_resize.h	/^    STBIR_COLORSPACE_LINEAR,$/;"	e	enum:__anon4
+STBIR_COLORSPACE_SRGB	include/stb_image/stb_image_resize.h	/^    STBIR_COLORSPACE_SRGB,$/;"	e	enum:__anon4
+STBIR_DEFAULT_FILTER_DOWNSAMPLE	include/stb_image/stb_image_resize.h	/^#define STBIR_DEFAULT_FILTER_DOWNSAMPLE /;"	d
+STBIR_DEFAULT_FILTER_UPSAMPLE	include/stb_image/stb_image_resize.h	/^#define STBIR_DEFAULT_FILTER_UPSAMPLE /;"	d
+STBIR_EDGE_CLAMP	include/stb_image/stb_image_resize.h	/^    STBIR_EDGE_CLAMP   = 1,$/;"	e	enum:__anon2
+STBIR_EDGE_REFLECT	include/stb_image/stb_image_resize.h	/^    STBIR_EDGE_REFLECT = 2,$/;"	e	enum:__anon2
+STBIR_EDGE_WRAP	include/stb_image/stb_image_resize.h	/^    STBIR_EDGE_WRAP    = 3,$/;"	e	enum:__anon2
+STBIR_EDGE_ZERO	include/stb_image/stb_image_resize.h	/^    STBIR_EDGE_ZERO    = 4,$/;"	e	enum:__anon2
+STBIR_FILTER_BOX	include/stb_image/stb_image_resize.h	/^    STBIR_FILTER_BOX          = 1,  \/\/ A trapezoid w\/1-pixel wide ramps, same result as box for integer scale ratios$/;"	e	enum:__anon3
+STBIR_FILTER_CATMULLROM	include/stb_image/stb_image_resize.h	/^    STBIR_FILTER_CATMULLROM   = 4,  \/\/ An interpolating cubic spline$/;"	e	enum:__anon3
+STBIR_FILTER_CUBICBSPLINE	include/stb_image/stb_image_resize.h	/^    STBIR_FILTER_CUBICBSPLINE = 3,  \/\/ The cubic b-spline (aka Mitchell-Netrevalli with B=1,C=0), gaussian-esque$/;"	e	enum:__anon3
+STBIR_FILTER_DEFAULT	include/stb_image/stb_image_resize.h	/^    STBIR_FILTER_DEFAULT      = 0,  \/\/ use same filter type that easy-to-use API chooses$/;"	e	enum:__anon3
+STBIR_FILTER_MITCHELL	include/stb_image/stb_image_resize.h	/^    STBIR_FILTER_MITCHELL     = 5,  \/\/ Mitchell-Netrevalli filter with B=1\/3, C=1\/3$/;"	e	enum:__anon3
+STBIR_FILTER_TRIANGLE	include/stb_image/stb_image_resize.h	/^    STBIR_FILTER_TRIANGLE     = 2,  \/\/ On upsampling, produces same results as bilinear texture filtering$/;"	e	enum:__anon3
+STBIR_FLAG_ALPHA_PREMULTIPLIED	include/stb_image/stb_image_resize.h	/^#define STBIR_FLAG_ALPHA_PREMULTIPLIED /;"	d
+STBIR_FLAG_ALPHA_USES_COLORSPACE	include/stb_image/stb_image_resize.h	/^#define STBIR_FLAG_ALPHA_USES_COLORSPACE /;"	d
+STBIR_FREE	include/stb_image/stb_image_resize.h	/^#define STBIR_FREE(/;"	d
+STBIR_INCLUDE_STB_IMAGE_RESIZE_H	include/stb_image/stb_image_resize.h	/^#define STBIR_INCLUDE_STB_IMAGE_RESIZE_H$/;"	d
+STBIR_MALLOC	include/stb_image/stb_image_resize.h	/^#define STBIR_MALLOC(/;"	d
+STBIR_MAX_CHANNELS	include/stb_image/stb_image_resize.h	/^#define STBIR_MAX_CHANNELS /;"	d
+STBIR_MAX_COLORSPACES	include/stb_image/stb_image_resize.h	/^    STBIR_MAX_COLORSPACES,$/;"	e	enum:__anon4
+STBIR_MAX_TYPES	include/stb_image/stb_image_resize.h	/^    STBIR_MAX_TYPES$/;"	e	enum:__anon5
+STBIR_PROGRESS_REPORT	include/stb_image/stb_image_resize.h	/^#define STBIR_PROGRESS_REPORT(/;"	d
+STBIR_TYPE_FLOAT	include/stb_image/stb_image_resize.h	/^    STBIR_TYPE_FLOAT ,$/;"	e	enum:__anon5
+STBIR_TYPE_UINT16	include/stb_image/stb_image_resize.h	/^    STBIR_TYPE_UINT16,$/;"	e	enum:__anon5
+STBIR_TYPE_UINT32	include/stb_image/stb_image_resize.h	/^    STBIR_TYPE_UINT32,$/;"	e	enum:__anon5
+STBIR_TYPE_UINT8	include/stb_image/stb_image_resize.h	/^    STBIR_TYPE_UINT8 ,$/;"	e	enum:__anon5
+STBIR__ARRAY_SIZE	include/stb_image/stb_image_resize.h	/^#define STBIR__ARRAY_SIZE(/;"	d
+STBIR__DECODE	include/stb_image/stb_image_resize.h	/^#define STBIR__DECODE(/;"	d
+STBIR__ENCODE_LINEAR16	include/stb_image/stb_image_resize.h	/^    #define STBIR__ENCODE_LINEAR16(/;"	d
+STBIR__ENCODE_LINEAR8	include/stb_image/stb_image_resize.h	/^    #define STBIR__ENCODE_LINEAR8(/;"	d
+STBIR__NEXT_MEMPTR	include/stb_image/stb_image_resize.h	/^#define STBIR__NEXT_MEMPTR(/;"	d
+STBIR__NEXT_MEMPTR	include/stb_image/stb_image_resize.h	/^#undef STBIR__NEXT_MEMPTR$/;"	d
+STBIR__NOTUSED	include/stb_image/stb_image_resize.h	/^#define STBIR__NOTUSED(/;"	d
+STBIR__ROUND_INT	include/stb_image/stb_image_resize.h	/^    #define STBIR__ROUND_INT(/;"	d
+STBIR__ROUND_UINT	include/stb_image/stb_image_resize.h	/^    #define STBIR__ROUND_UINT(/;"	d
+STBIR__UNUSED_PARAM	include/stb_image/stb_image_resize.h	/^#define STBIR__UNUSED_PARAM(/;"	d
+STBIWDEF	include/stb_image/stb_image_write.h	/^#define STBIWDEF /;"	d
+STBIW_ASSERT	include/stb_image/stb_image_write.h	/^#define STBIW_ASSERT(/;"	d
+STBIW_EXTERN	include/stb_image/stb_image_write.h	/^#define STBIW_EXTERN /;"	d
+STBIW_FREE	include/stb_image/stb_image_write.h	/^#define STBIW_FREE(/;"	d
+STBIW_MALLOC	include/stb_image/stb_image_write.h	/^#define STBIW_MALLOC(/;"	d
+STBIW_MEMMOVE	include/stb_image/stb_image_write.h	/^#define STBIW_MEMMOVE(/;"	d
+STBIW_REALLOC	include/stb_image/stb_image_write.h	/^#define STBIW_REALLOC(/;"	d
+STBIW_REALLOC_SIZED	include/stb_image/stb_image_write.h	/^#define STBIW_REALLOC_SIZED(/;"	d
+STBIW_UCHAR	include/stb_image/stb_image_write.h	/^#define STBIW_UCHAR(/;"	d
+STBI_ASSERT	include/stb_image/stb_image.h	/^#define STBI_ASSERT(/;"	d
+STBI_EXTERN	include/stb_image/stb_image.h	/^#define STBI_EXTERN /;"	d
+STBI_FREE	include/stb_image/stb_image.h	/^#define STBI_FREE(/;"	d
+STBI_HAS_LROTL	include/stb_image/stb_image.h	/^#define STBI_HAS_LROTL$/;"	d
+STBI_INCLUDE_STB_IMAGE_H	include/stb_image/stb_image.h	/^#define STBI_INCLUDE_STB_IMAGE_H$/;"	d
+STBI_MALLOC	include/stb_image/stb_image.h	/^#define STBI_MALLOC(/;"	d
+STBI_MAX_DIMENSIONS	include/stb_image/stb_image.h	/^#define STBI_MAX_DIMENSIONS /;"	d
+STBI_NEON	include/stb_image/stb_image.h	/^#undef STBI_NEON$/;"	d
+STBI_NOTUSED	include/stb_image/stb_image.h	/^#define STBI_NOTUSED(/;"	d
+STBI_NO_BMP	include/stb_image/stb_image.h	/^   #define STBI_NO_BMP$/;"	d
+STBI_NO_GIF	include/stb_image/stb_image.h	/^   #define STBI_NO_GIF$/;"	d
+STBI_NO_HDR	include/stb_image/stb_image.h	/^   #define STBI_NO_HDR$/;"	d
+STBI_NO_JPEG	include/stb_image/stb_image.h	/^   #define STBI_NO_JPEG$/;"	d
+STBI_NO_PIC	include/stb_image/stb_image.h	/^   #define STBI_NO_PIC$/;"	d
+STBI_NO_PNG	include/stb_image/stb_image.h	/^   #define STBI_NO_PNG$/;"	d
+STBI_NO_PNM	include/stb_image/stb_image.h	/^   #define STBI_NO_PNM$/;"	d
+STBI_NO_PSD	include/stb_image/stb_image.h	/^   #define STBI_NO_PSD$/;"	d
+STBI_NO_SIMD	include/stb_image/stb_image.h	/^#define STBI_NO_SIMD$/;"	d
+STBI_NO_TGA	include/stb_image/stb_image.h	/^   #define STBI_NO_TGA$/;"	d
+STBI_NO_ZLIB	include/stb_image/stb_image.h	/^#define STBI_NO_ZLIB$/;"	d
+STBI_ORDER_BGR	include/stb_image/stb_image.h	/^   STBI_ORDER_BGR$/;"	e	enum:__anon13
+STBI_ORDER_RGB	include/stb_image/stb_image.h	/^   STBI_ORDER_RGB,$/;"	e	enum:__anon13
+STBI_REALLOC	include/stb_image/stb_image.h	/^#define STBI_REALLOC(/;"	d
+STBI_REALLOC_SIZED	include/stb_image/stb_image.h	/^#define STBI_REALLOC_SIZED(/;"	d
+STBI_SIMD_ALIGN	include/stb_image/stb_image.h	/^#define STBI_SIMD_ALIGN(/;"	d
+STBI_SSE2	include/stb_image/stb_image.h	/^#define STBI_SSE2$/;"	d
+STBI_THREAD_LOCAL	include/stb_image/stb_image.h	/^        #define STBI_THREAD_LOCAL /;"	d
+STBI_THREAD_LOCAL	include/stb_image/stb_image.h	/^      #define STBI_THREAD_LOCAL /;"	d
+STBI_VERSION	include/stb_image/stb_image.h	/^#define STBI_VERSION /;"	d
+STBI__BYTECAST	include/stb_image/stb_image.h	/^#define STBI__BYTECAST(/;"	d
+STBI__CASE	include/stb_image/stb_image.h	/^         #define STBI__CASE(/;"	d
+STBI__CASE	include/stb_image/stb_image.h	/^         #undef STBI__CASE$/;"	d
+STBI__CASE	include/stb_image/stb_image.h	/^      #define STBI__CASE(/;"	d
+STBI__CASE	include/stb_image/stb_image.h	/^      #undef STBI__CASE$/;"	d
+STBI__COMBO	include/stb_image/stb_image.h	/^      #define STBI__COMBO(/;"	d
+STBI__F_avg	include/stb_image/stb_image.h	/^   STBI__F_avg=3,$/;"	e	enum:__anon24
+STBI__F_avg_first	include/stb_image/stb_image.h	/^   STBI__F_avg_first,$/;"	e	enum:__anon24
+STBI__F_none	include/stb_image/stb_image.h	/^   STBI__F_none=0,$/;"	e	enum:__anon24
+STBI__F_paeth	include/stb_image/stb_image.h	/^   STBI__F_paeth=4,$/;"	e	enum:__anon24
+STBI__F_paeth_first	include/stb_image/stb_image.h	/^   STBI__F_paeth_first$/;"	e	enum:__anon24
+STBI__F_sub	include/stb_image/stb_image.h	/^   STBI__F_sub=1,$/;"	e	enum:__anon24
+STBI__F_up	include/stb_image/stb_image.h	/^   STBI__F_up=2,$/;"	e	enum:__anon24
+STBI__HDR_BUFLEN	include/stb_image/stb_image.h	/^#define STBI__HDR_BUFLEN /;"	d
+STBI__IDCT_1D	include/stb_image/stb_image.h	/^#define STBI__IDCT_1D(/;"	d
+STBI__MARKER_none	include/stb_image/stb_image.h	/^#define STBI__MARKER_none /;"	d
+STBI__PNG_TYPE	include/stb_image/stb_image.h	/^#define STBI__PNG_TYPE(/;"	d
+STBI__RESTART	include/stb_image/stb_image.h	/^#define STBI__RESTART(/;"	d
+STBI__SCAN_header	include/stb_image/stb_image.h	/^   STBI__SCAN_header$/;"	e	enum:__anon15
+STBI__SCAN_load	include/stb_image/stb_image.h	/^   STBI__SCAN_load=0,$/;"	e	enum:__anon15
+STBI__SCAN_type	include/stb_image/stb_image.h	/^   STBI__SCAN_type,$/;"	e	enum:__anon15
+STBI__X64_TARGET	include/stb_image/stb_image.h	/^#define STBI__X64_TARGET$/;"	d
+STBI__X86_TARGET	include/stb_image/stb_image.h	/^#define STBI__X86_TARGET$/;"	d
+STBI__ZFAST_BITS	include/stb_image/stb_image.h	/^#define STBI__ZFAST_BITS /;"	d
+STBI__ZFAST_MASK	include/stb_image/stb_image.h	/^#define STBI__ZFAST_MASK /;"	d
+STBI_default	include/stb_image/stb_image.h	/^   STBI_default = 0, \/\/ only used for desired_channels$/;"	e	enum:__anon10
+STBI_grey	include/stb_image/stb_image.h	/^   STBI_grey       = 1,$/;"	e	enum:__anon10
+STBI_grey_alpha	include/stb_image/stb_image.h	/^   STBI_grey_alpha = 2,$/;"	e	enum:__anon10
+STBI_rgb	include/stb_image/stb_image.h	/^   STBI_rgb        = 3,$/;"	e	enum:__anon10
+STBI_rgb_alpha	include/stb_image/stb_image.h	/^   STBI_rgb_alpha  = 4$/;"	e	enum:__anon10
+STB_IMAGE_IMPLEMENTATION	src/image_self.c	/^#define STB_IMAGE_IMPLEMENTATION$/;"	d	file:
+STB_IMAGE_RESIZE_IMPLEMENTATION	src/image_self.c	/^#define STB_IMAGE_RESIZE_IMPLEMENTATION$/;"	d	file:
+STB_IMAGE_WRITE_IMPLEMENTATION	src/image_self.c	/^#define STB_IMAGE_WRITE_IMPLEMENTATION$/;"	d	file:
+TRUE	src/image_self.c	/^#define TRUE /;"	d	file:
+YCbCr_to_RGB_kernel	include/stb_image/stb_image.h	/^   void (*YCbCr_to_RGB_kernel)(stbi_uc *out, const stbi_uc *y, const stbi_uc *pcb, const stbi_uc *pcr, int count, int step);$/;"	m	struct:__anon17
+_COMM_DEFINE_	src/image_self.c	/^#define _COMM_DEFINE_$/;"	d	file:
+_CRT_NONSTDC_NO_DEPRECATE	include/stb_image/stb_image_write.h	/^   #define _CRT_NONSTDC_NO_DEPRECATE$/;"	d
+_CRT_SECURE_NO_WARNINGS	include/stb_image/stb_image_write.h	/^   #define _CRT_SECURE_NO_WARNINGS$/;"	d
+all_a	include/stb_image/stb_image.h	/^   unsigned int mr,mg,mb,ma, all_a;$/;"	m	struct:__anon25
+alpha_channel	include/stb_image/stb_image_resize.h	/^    int alpha_channel;$/;"	m	struct:__anon8
+app14_color_transform	include/stb_image/stb_image.h	/^   int            app14_color_transform; \/\/ Adobe APP14 tag$/;"	m	struct:__anon17
+background	include/stb_image/stb_image.h	/^   stbi_uc *background;          \/\/ The current "background" as far as a gif is concerned$/;"	m	struct:__anon28
+bgindex	include/stb_image/stb_image.h	/^   int flags, bgindex, ratio, transparent, eflags;$/;"	m	struct:__anon28
+bits_per_channel	include/stb_image/stb_image.h	/^   int bits_per_channel;$/;"	m	struct:__anon14
+bpp	include/stb_image/stb_image.h	/^   int bpp, offset, hsz;$/;"	m	struct:__anon25
+buf_used	include/stb_image/stb_image_write.h	/^   int buf_used;$/;"	m	struct:__anon1
+buffer	include/stb_image/stb_image_write.h	/^   unsigned char buffer[64];$/;"	m	struct:__anon1
+buffer_start	include/stb_image/stb_image.h	/^   stbi_uc buffer_start[128];$/;"	m	struct:__anon12
+buflen	include/stb_image/stb_image.h	/^   int buflen;$/;"	m	struct:__anon12
+callback_already_read	include/stb_image/stb_image.h	/^   int callback_already_read;$/;"	m	struct:__anon12
+cchar	src/image_self.c	/^typedef unsigned char cchar;$/;"	t	file:
+channel	include/stb_image/stb_image.h	/^   stbi_uc size,type,channel;$/;"	m	struct:__anon26
+channel_order	include/stb_image/stb_image.h	/^   int channel_order;$/;"	m	struct:__anon14
+channels	include/stb_image/stb_image_resize.h	/^    int channels;$/;"	m	struct:__anon8
+code	include/stb_image/stb_image.h	/^   stbi__uint16 code[256];$/;"	m	struct:__anon16
+code_bits	include/stb_image/stb_image.h	/^   int            code_bits;   \/\/ number of valid bits$/;"	m	struct:__anon17
+code_buffer	include/stb_image/stb_image.h	/^   stbi__uint32   code_buffer; \/\/ jpeg entropy-coded buffer$/;"	m	struct:__anon17
+code_buffer	include/stb_image/stb_image.h	/^   stbi__uint32 code_buffer;$/;"	m	struct:__anon21
+codes	include/stb_image/stb_image.h	/^   stbi__gif_lzw codes[8192];$/;"	m	struct:__anon28
+coeff	include/stb_image/stb_image.h	/^      short   *coeff;   \/\/ progressive only$/;"	m	struct:__anon17::__anon18
+coeff_h	include/stb_image/stb_image.h	/^      int      coeff_w, coeff_h; \/\/ number of 8x8 coefficient blocks$/;"	m	struct:__anon17::__anon18
+coeff_w	include/stb_image/stb_image.h	/^      int      coeff_w, coeff_h; \/\/ number of 8x8 coefficient blocks$/;"	m	struct:__anon17::__anon18
+color_table	include/stb_image/stb_image.h	/^   stbi_uc *color_table;$/;"	m	struct:__anon28
+colorspace	include/stb_image/stb_image_resize.h	/^    stbir_colorspace colorspace;$/;"	m	struct:__anon8
+context	include/stb_image/stb_image_write.h	/^   void *context;$/;"	m	struct:__anon1
+cur_x	include/stb_image/stb_image.h	/^   int cur_x, cur_y;$/;"	m	struct:__anon28
+cur_y	include/stb_image/stb_image.h	/^   int cur_x, cur_y;$/;"	m	struct:__anon28
+data	include/stb_image/stb_image.h	/^      stbi_uc *data;$/;"	m	struct:__anon17::__anon18
+dc_pred	include/stb_image/stb_image.h	/^      int dc_pred;$/;"	m	struct:__anon17::__anon18
+dct_bfly32o	include/stb_image/stb_image.h	/^   #define dct_bfly32o(/;"	d
+dct_bfly32o	include/stb_image/stb_image.h	/^#define dct_bfly32o(/;"	d
+dct_bfly32o	include/stb_image/stb_image.h	/^#undef dct_bfly32o$/;"	d
+dct_const	include/stb_image/stb_image.h	/^   #define dct_const(/;"	d
+dct_const	include/stb_image/stb_image.h	/^#undef dct_const$/;"	d
+dct_interleave16	include/stb_image/stb_image.h	/^   #define dct_interleave16(/;"	d
+dct_interleave16	include/stb_image/stb_image.h	/^#undef dct_interleave16$/;"	d
+dct_interleave8	include/stb_image/stb_image.h	/^   #define dct_interleave8(/;"	d
+dct_interleave8	include/stb_image/stb_image.h	/^#undef dct_interleave8$/;"	d
+dct_long_mac	include/stb_image/stb_image.h	/^#define dct_long_mac(/;"	d
+dct_long_mac	include/stb_image/stb_image.h	/^#undef dct_long_mac$/;"	d
+dct_long_mul	include/stb_image/stb_image.h	/^#define dct_long_mul(/;"	d
+dct_long_mul	include/stb_image/stb_image.h	/^#undef dct_long_mul$/;"	d
+dct_pass	include/stb_image/stb_image.h	/^   #define dct_pass(/;"	d
+dct_pass	include/stb_image/stb_image.h	/^#define dct_pass(/;"	d
+dct_pass	include/stb_image/stb_image.h	/^#undef dct_pass$/;"	d
+dct_rot	include/stb_image/stb_image.h	/^   #define dct_rot(/;"	d
+dct_rot	include/stb_image/stb_image.h	/^#undef dct_rot$/;"	d
+dct_trn16	include/stb_image/stb_image.h	/^#define dct_trn16(/;"	d
+dct_trn16	include/stb_image/stb_image.h	/^#undef dct_trn16$/;"	d
+dct_trn32	include/stb_image/stb_image.h	/^#define dct_trn32(/;"	d
+dct_trn32	include/stb_image/stb_image.h	/^#undef dct_trn32$/;"	d
+dct_trn64	include/stb_image/stb_image.h	/^#define dct_trn64(/;"	d
+dct_trn64	include/stb_image/stb_image.h	/^#undef dct_trn64$/;"	d
+dct_trn8_16	include/stb_image/stb_image.h	/^#define dct_trn8_16(/;"	d
+dct_trn8_16	include/stb_image/stb_image.h	/^#undef dct_trn8_16$/;"	d
+dct_trn8_32	include/stb_image/stb_image.h	/^#define dct_trn8_32(/;"	d
+dct_trn8_32	include/stb_image/stb_image.h	/^#undef dct_trn8_32$/;"	d
+dct_trn8_8	include/stb_image/stb_image.h	/^#define dct_trn8_8(/;"	d
+dct_trn8_8	include/stb_image/stb_image.h	/^#undef dct_trn8_8$/;"	d
+dct_wadd	include/stb_image/stb_image.h	/^   #define dct_wadd(/;"	d
+dct_wadd	include/stb_image/stb_image.h	/^#define dct_wadd(/;"	d
+dct_wadd	include/stb_image/stb_image.h	/^#undef dct_wadd$/;"	d
+dct_widen	include/stb_image/stb_image.h	/^   #define dct_widen(/;"	d
+dct_widen	include/stb_image/stb_image.h	/^#define dct_widen(/;"	d
+dct_widen	include/stb_image/stb_image.h	/^#undef dct_widen$/;"	d
+dct_wsub	include/stb_image/stb_image.h	/^   #define dct_wsub(/;"	d
+dct_wsub	include/stb_image/stb_image.h	/^#define dct_wsub(/;"	d
+dct_wsub	include/stb_image/stb_image.h	/^#undef dct_wsub$/;"	d
+decode_buffer	include/stb_image/stb_image_resize.h	/^    float* decode_buffer;$/;"	m	struct:__anon8
+decode_buffer_pixels	include/stb_image/stb_image_resize.h	/^    int decode_buffer_pixels;$/;"	m	struct:__anon8
+decode_buffer_size	include/stb_image/stb_image_resize.h	/^    int decode_buffer_size;$/;"	m	struct:__anon8
+delay	include/stb_image/stb_image.h	/^   int delay;$/;"	m	struct:__anon28
+delta	include/stb_image/stb_image.h	/^   int    delta[17];   \/\/ old 'firstsymbol' - old 'firstcode'$/;"	m	struct:__anon16
+depth	include/stb_image/stb_image.h	/^   int depth;$/;"	m	struct:__anon23
+dequant	include/stb_image/stb_image.h	/^   stbi__uint16 dequant[4][64];$/;"	m	struct:__anon17
+edge_horizontal	include/stb_image/stb_image_resize.h	/^    stbir_edge edge_horizontal;$/;"	m	struct:__anon8
+edge_vertical	include/stb_image/stb_image_resize.h	/^    stbir_edge edge_vertical;$/;"	m	struct:__anon8
+eflags	include/stb_image/stb_image.h	/^   int flags, bgindex, ratio, transparent, eflags;$/;"	m	struct:__anon28
+encode_buffer	include/stb_image/stb_image_resize.h	/^    float* encode_buffer; \/\/ A temporary buffer to store floats so we don't lose precision while we do multiply-adds.$/;"	m	struct:__anon8
+encode_buffer_size	include/stb_image/stb_image_resize.h	/^    int encode_buffer_size;$/;"	m	struct:__anon8
+eob_run	include/stb_image/stb_image.h	/^   int            eob_run;$/;"	m	struct:__anon17
+eof	include/stb_image/stb_image.h	/^   int      (*eof)   (void *user);                       \/\/ returns nonzero if we are at end of file\/data$/;"	m	struct:__anon11
+expanded	include/stb_image/stb_image.h	/^   stbi_uc *idata, *expanded, *out;$/;"	m	struct:__anon23
+extra_read	include/stb_image/stb_image.h	/^   int extra_read;$/;"	m	struct:__anon25
+f	include/stb_image/stb_image_resize.h	/^    float f;$/;"	m	union:__anon9
+fast	include/stb_image/stb_image.h	/^   stbi__uint16 fast[1 << STBI__ZFAST_BITS];$/;"	m	struct:__anon20
+fast	include/stb_image/stb_image.h	/^   stbi_uc  fast[1 << FAST_BITS];$/;"	m	struct:__anon16
+fast_ac	include/stb_image/stb_image.h	/^   stbi__int16 fast_ac[4][1 << FAST_BITS];$/;"	m	struct:__anon17
+first	include/stb_image/stb_image.h	/^   stbi_uc first;$/;"	m	struct:__anon27
+first_row_filter	include/stb_image/stb_image.h	/^static stbi_uc first_row_filter[5] =$/;"	v
+firstcode	include/stb_image/stb_image.h	/^   stbi__uint16 firstcode[16];$/;"	m	struct:__anon20
+firstsymbol	include/stb_image/stb_image.h	/^   stbi__uint16 firstsymbol[16];$/;"	m	struct:__anon20
+flags	include/stb_image/stb_image.h	/^   int flags, bgindex, ratio, transparent, eflags;$/;"	m	struct:__anon28
+flags	include/stb_image/stb_image_resize.h	/^    stbir_uint32 flags;$/;"	m	struct:__anon8
+fp32_to_srgb8_tab4	include/stb_image/stb_image_resize.h	/^static const stbir_uint32 fp32_to_srgb8_tab4[104] = {$/;"	v
+func	include/stb_image/stb_image_write.h	/^   stbi_write_func *func;$/;"	m	struct:__anon1
+get_image_size	src/image_self.c	/^int get_image_size(const char *pInPath, cchar **ppOutImgData, int *pOutW, int *pOutH, int *pOutChn){$/;"	f
+h	include/stb_image/stb_image.h	/^      int h,v;$/;"	m	struct:__anon17::__anon18
+h	include/stb_image/stb_image.h	/^   int w,h;$/;"	m	struct:__anon28
+h2	include/stb_image/stb_image.h	/^      int x,y,w2,h2;$/;"	m	struct:__anon17::__anon18
+ha	include/stb_image/stb_image.h	/^      int hd,ha;$/;"	m	struct:__anon17::__anon18
+hd	include/stb_image/stb_image.h	/^      int hd,ha;$/;"	m	struct:__anon17::__anon18
+history	include/stb_image/stb_image.h	/^   stbi_uc *history;$/;"	m	struct:__anon28
+horizontal_buffer	include/stb_image/stb_image_resize.h	/^    float* horizontal_buffer;$/;"	m	struct:__anon8
+horizontal_buffer_size	include/stb_image/stb_image_resize.h	/^    int horizontal_buffer_size;$/;"	m	struct:__anon8
+horizontal_coefficient_width	include/stb_image/stb_image_resize.h	/^    int horizontal_coefficient_width;$/;"	m	struct:__anon8
+horizontal_coefficients	include/stb_image/stb_image_resize.h	/^    float* horizontal_coefficients;$/;"	m	struct:__anon8
+horizontal_coefficients_size	include/stb_image/stb_image_resize.h	/^    int horizontal_coefficients_size;$/;"	m	struct:__anon8
+horizontal_contributors	include/stb_image/stb_image_resize.h	/^    stbir__contributors* horizontal_contributors;$/;"	m	struct:__anon8
+horizontal_contributors_size	include/stb_image/stb_image_resize.h	/^    int horizontal_contributors_size;$/;"	m	struct:__anon8
+horizontal_filter	include/stb_image/stb_image_resize.h	/^    stbir_filter horizontal_filter;$/;"	m	struct:__anon8
+horizontal_filter_pixel_margin	include/stb_image/stb_image_resize.h	/^    int horizontal_filter_pixel_margin;$/;"	m	struct:__anon8
+horizontal_filter_pixel_width	include/stb_image/stb_image_resize.h	/^    int horizontal_filter_pixel_width;$/;"	m	struct:__anon8
+horizontal_num_contributors	include/stb_image/stb_image_resize.h	/^    int horizontal_num_contributors;$/;"	m	struct:__anon8
+horizontal_scale	include/stb_image/stb_image_resize.h	/^    float horizontal_scale;$/;"	m	struct:__anon8
+horizontal_shift	include/stb_image/stb_image_resize.h	/^    float horizontal_shift; \/\/ Units: output pixels$/;"	m	struct:__anon8
+hs	include/stb_image/stb_image.h	/^   int hs,vs;   \/\/ expansion factor in each axis$/;"	m	struct:__anon19
+hsz	include/stb_image/stb_image.h	/^   int bpp, offset, hsz;$/;"	m	struct:__anon25
+huff_ac	include/stb_image/stb_image.h	/^   stbi__huffman huff_ac[4];$/;"	m	struct:__anon17
+huff_dc	include/stb_image/stb_image.h	/^   stbi__huffman huff_dc[4];$/;"	m	struct:__anon17
+id	include/stb_image/stb_image.h	/^      int id;$/;"	m	struct:__anon17::__anon18
+idata	include/stb_image/stb_image.h	/^   stbi_uc *idata, *expanded, *out;$/;"	m	struct:__anon23
+idct_block_kernel	include/stb_image/stb_image.h	/^   void (*idct_block_kernel)(stbi_uc *out, int out_stride, short data[64]);$/;"	m	struct:__anon17
+img_buffer	include/stb_image/stb_image.h	/^   stbi_uc *img_buffer, *img_buffer_end;$/;"	m	struct:__anon12
+img_buffer_end	include/stb_image/stb_image.h	/^   stbi_uc *img_buffer, *img_buffer_end;$/;"	m	struct:__anon12
+img_buffer_original	include/stb_image/stb_image.h	/^   stbi_uc *img_buffer_original, *img_buffer_original_end;$/;"	m	struct:__anon12
+img_buffer_original_end	include/stb_image/stb_image.h	/^   stbi_uc *img_buffer_original, *img_buffer_original_end;$/;"	m	struct:__anon12
+img_comp	include/stb_image/stb_image.h	/^   } img_comp[4];$/;"	m	struct:__anon17	typeref:struct:__anon17::__anon18
+img_h_max	include/stb_image/stb_image.h	/^   int img_h_max, img_v_max;$/;"	m	struct:__anon17
+img_mcu_h	include/stb_image/stb_image.h	/^   int img_mcu_w, img_mcu_h;$/;"	m	struct:__anon17
+img_mcu_w	include/stb_image/stb_image.h	/^   int img_mcu_w, img_mcu_h;$/;"	m	struct:__anon17
+img_mcu_x	include/stb_image/stb_image.h	/^   int img_mcu_x, img_mcu_y;$/;"	m	struct:__anon17
+img_mcu_y	include/stb_image/stb_image.h	/^   int img_mcu_x, img_mcu_y;$/;"	m	struct:__anon17
+img_n	include/stb_image/stb_image.h	/^   int img_n, img_out_n;$/;"	m	struct:__anon12
+img_out_n	include/stb_image/stb_image.h	/^   int img_n, img_out_n;$/;"	m	struct:__anon12
+img_v_max	include/stb_image/stb_image.h	/^   int img_h_max, img_v_max;$/;"	m	struct:__anon17
+img_x	include/stb_image/stb_image.h	/^   stbi__uint32 img_x, img_y;$/;"	m	struct:__anon12
+img_y	include/stb_image/stb_image.h	/^   stbi__uint32 img_x, img_y;$/;"	m	struct:__anon12
+input_data	include/stb_image/stb_image_resize.h	/^    const void* input_data;$/;"	m	struct:__anon8
+input_h	include/stb_image/stb_image_resize.h	/^    int input_h;$/;"	m	struct:__anon8
+input_stride_bytes	include/stb_image/stb_image_resize.h	/^    int input_stride_bytes;$/;"	m	struct:__anon8
+input_w	include/stb_image/stb_image_resize.h	/^    int input_w;$/;"	m	struct:__anon8
+io	include/stb_image/stb_image.h	/^   stbi_io_callbacks io;$/;"	m	struct:__anon12
+io_user_data	include/stb_image/stb_image.h	/^   void *io_user_data;$/;"	m	struct:__anon12
+jfif	include/stb_image/stb_image.h	/^   int            jfif;$/;"	m	struct:__anon17
+kernel	include/stb_image/stb_image_resize.h	/^    stbir__kernel_fn* kernel;$/;"	m	struct:__anon6
+length	include/stb_image/stb_image.h	/^   stbi__uint32 length;$/;"	m	struct:__anon22
+lflags	include/stb_image/stb_image.h	/^   int lflags;$/;"	m	struct:__anon28
+line0	include/stb_image/stb_image.h	/^   stbi_uc *line0,*line1;$/;"	m	struct:__anon19
+line1	include/stb_image/stb_image.h	/^   stbi_uc *line0,*line1;$/;"	m	struct:__anon19
+line_size	include/stb_image/stb_image.h	/^   int line_size;$/;"	m	struct:__anon28
+linebuf	include/stb_image/stb_image.h	/^      stbi_uc *linebuf;$/;"	m	struct:__anon17::__anon18
+load_jpeg_image	include/stb_image/stb_image.h	/^static stbi_uc *load_jpeg_image(stbi__jpeg *z, int *out_x, int *out_y, int *comp, int req_comp)$/;"	f
+lpal	include/stb_image/stb_image.h	/^   stbi_uc lpal[256][4];$/;"	m	struct:__anon28
+ma	include/stb_image/stb_image.h	/^   unsigned int mr,mg,mb,ma, all_a;$/;"	m	struct:__anon25
+main	src/image_self.c	/^int main(int argc, char **argv){$/;"	f
+marker	include/stb_image/stb_image.h	/^   unsigned char  marker;      \/\/ marker seen while filling entropy buffer$/;"	m	struct:__anon17
+max_x	include/stb_image/stb_image.h	/^   int max_x, max_y;$/;"	m	struct:__anon28
+max_y	include/stb_image/stb_image.h	/^   int max_x, max_y;$/;"	m	struct:__anon28
+maxcode	include/stb_image/stb_image.h	/^   int maxcode[17];$/;"	m	struct:__anon20
+maxcode	include/stb_image/stb_image.h	/^   unsigned int maxcode[18];$/;"	m	struct:__anon16
+mb	include/stb_image/stb_image.h	/^   unsigned int mr,mg,mb,ma, all_a;$/;"	m	struct:__anon25
+mg	include/stb_image/stb_image.h	/^   unsigned int mr,mg,mb,ma, all_a;$/;"	m	struct:__anon25
+mr	include/stb_image/stb_image.h	/^   unsigned int mr,mg,mb,ma, all_a;$/;"	m	struct:__anon25
+n0	include/stb_image/stb_image_resize.h	/^    int n0; \/\/ First contributing pixel$/;"	m	struct:__anon7
+n1	include/stb_image/stb_image_resize.h	/^    int n1; \/\/ Last contributing pixel$/;"	m	struct:__anon7
+nomore	include/stb_image/stb_image.h	/^   int            nomore;      \/\/ flag if we saw a marker so must stop$/;"	m	struct:__anon17
+num_bits	include/stb_image/stb_image.h	/^   int num_bits;$/;"	m	struct:__anon21
+num_channels	include/stb_image/stb_image.h	/^   int num_channels;$/;"	m	struct:__anon14
+offset	include/stb_image/stb_image.h	/^   int bpp, offset, hsz;$/;"	m	struct:__anon25
+order	include/stb_image/stb_image.h	/^   int scan_n, order[4];$/;"	m	struct:__anon17
+out	include/stb_image/stb_image.h	/^   stbi_uc *idata, *expanded, *out;$/;"	m	struct:__anon23
+out	include/stb_image/stb_image.h	/^   stbi_uc *out;                 \/\/ output buffer (always 4 components)$/;"	m	struct:__anon28
+output_data	include/stb_image/stb_image_resize.h	/^    void* output_data;$/;"	m	struct:__anon8
+output_h	include/stb_image/stb_image_resize.h	/^    int output_h;$/;"	m	struct:__anon8
+output_stride_bytes	include/stb_image/stb_image_resize.h	/^    int output_stride_bytes;$/;"	m	struct:__anon8
+output_w	include/stb_image/stb_image_resize.h	/^    int output_w;$/;"	m	struct:__anon8
+pal	include/stb_image/stb_image.h	/^   stbi_uc  pal[256][4];$/;"	m	struct:__anon28
+parse	include/stb_image/stb_image.h	/^   int parse, step;$/;"	m	struct:__anon28
+prefix	include/stb_image/stb_image.h	/^   stbi__int16 prefix;$/;"	m	struct:__anon27
+progressive	include/stb_image/stb_image.h	/^   int            progressive;$/;"	m	struct:__anon17
+ratio	include/stb_image/stb_image.h	/^   int flags, bgindex, ratio, transparent, eflags;$/;"	m	struct:__anon28
+raw_coeff	include/stb_image/stb_image.h	/^      void *raw_data, *raw_coeff;$/;"	m	struct:__anon17::__anon18
+raw_data	include/stb_image/stb_image.h	/^      void *raw_data, *raw_coeff;$/;"	m	struct:__anon17::__anon18
+read	include/stb_image/stb_image.h	/^   int      (*read)  (void *user,char *data,int size);   \/\/ fill 'data' with 'size' bytes.  return number of bytes actually read$/;"	m	struct:__anon11
+read_from_callbacks	include/stb_image/stb_image.h	/^   int read_from_callbacks;$/;"	m	struct:__anon12
+resample	include/stb_image/stb_image.h	/^   resample_row_func resample;$/;"	m	struct:__anon19
+resample_row_1	include/stb_image/stb_image.h	/^static stbi_uc *resample_row_1(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs)$/;"	f
+resample_row_func	include/stb_image/stb_image.h	/^typedef stbi_uc *(*resample_row_func)(stbi_uc *out, stbi_uc *in0, stbi_uc *in1,$/;"	t
+resample_row_hv_2_kernel	include/stb_image/stb_image.h	/^   stbi_uc *(*resample_row_hv_2_kernel)(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs);$/;"	m	struct:__anon17
+resize_image	src/image_self.c	/^int resize_image(const char *pInPath, const char *pOutPath, const float lResizeRate){$/;"	f
+restart_interval	include/stb_image/stb_image.h	/^   int restart_interval, todo;$/;"	m	struct:__anon17
+rgb	include/stb_image/stb_image.h	/^   int            rgb;$/;"	m	struct:__anon17
+ring_buffer	include/stb_image/stb_image_resize.h	/^    float* ring_buffer;$/;"	m	struct:__anon8
+ring_buffer_begin_index	include/stb_image/stb_image_resize.h	/^    int ring_buffer_begin_index;    \/\/ first_scanline is at this index in the ring buffer$/;"	m	struct:__anon8
+ring_buffer_first_scanline	include/stb_image/stb_image_resize.h	/^    int ring_buffer_first_scanline;$/;"	m	struct:__anon8
+ring_buffer_last_scanline	include/stb_image/stb_image_resize.h	/^    int ring_buffer_last_scanline;$/;"	m	struct:__anon8
+ring_buffer_length_bytes	include/stb_image/stb_image_resize.h	/^    int ring_buffer_length_bytes;   \/\/ The length of an individual entry in the ring buffer. The total number of ring buffers is stbir__get_filter_pixel_width(filter)$/;"	m	struct:__anon8
+ring_buffer_num_entries	include/stb_image/stb_image_resize.h	/^    int ring_buffer_num_entries;    \/\/ Total number of entries in the ring buffer.$/;"	m	struct:__anon8
+ring_buffer_size	include/stb_image/stb_image_resize.h	/^    int ring_buffer_size;$/;"	m	struct:__anon8
+s	include/stb_image/stb_image.h	/^   stbi__context *s;$/;"	m	struct:__anon17
+s	include/stb_image/stb_image.h	/^   stbi__context *s;$/;"	m	struct:__anon23
+s0	include/stb_image/stb_image_resize.h	/^    float s0, t0, s1, t1;$/;"	m	struct:__anon8
+s1	include/stb_image/stb_image_resize.h	/^    float s0, t0, s1, t1;$/;"	m	struct:__anon8
+scan_n	include/stb_image/stb_image.h	/^   int scan_n, order[4];$/;"	m	struct:__anon17
+size	include/stb_image/stb_image.h	/^   stbi_uc  size[257];$/;"	m	struct:__anon16
+size	include/stb_image/stb_image.h	/^   stbi_uc  size[288];$/;"	m	struct:__anon20
+size	include/stb_image/stb_image.h	/^   stbi_uc size,type,channel;$/;"	m	struct:__anon26
+skip	include/stb_image/stb_image.h	/^   void     (*skip)  (void *user,int n);                 \/\/ skip the next 'n' bytes, or 'unget' the last -n bytes if negative$/;"	m	struct:__anon11
+spec_end	include/stb_image/stb_image.h	/^   int            spec_end;$/;"	m	struct:__anon17
+spec_start	include/stb_image/stb_image.h	/^   int            spec_start;$/;"	m	struct:__anon17
+start_x	include/stb_image/stb_image.h	/^   int start_x, start_y;$/;"	m	struct:__anon28
+start_y	include/stb_image/stb_image.h	/^   int start_x, start_y;$/;"	m	struct:__anon28
+stb_image_write_test	include/stb_image/stb_image_write.h	/^typedef int stb_image_write_test[sizeof(stbiw_uint32)==4 ? 1 : -1];$/;"	t
+stbi__DNL	include/stb_image/stb_image.h	/^#define stbi__DNL(/;"	d
+stbi__EOI	include/stb_image/stb_image.h	/^#define stbi__EOI(/;"	d
+stbi__SOF	include/stb_image/stb_image.h	/^#define stbi__SOF(/;"	d
+stbi__SOF_progressive	include/stb_image/stb_image.h	/^#define stbi__SOF_progressive(/;"	d
+stbi__SOI	include/stb_image/stb_image.h	/^#define stbi__SOI(/;"	d
+stbi__SOS	include/stb_image/stb_image.h	/^#define stbi__SOS(/;"	d
+stbi__YCbCr_to_RGB_row	include/stb_image/stb_image.h	/^static void stbi__YCbCr_to_RGB_row(stbi_uc *out, const stbi_uc *y, const stbi_uc *pcb, const stbi_uc *pcr, int count, int step)$/;"	f
+stbi__YCbCr_to_RGB_simd	include/stb_image/stb_image.h	/^static void stbi__YCbCr_to_RGB_simd(stbi_uc *out, stbi_uc const *y, stbi_uc const *pcb, stbi_uc const *pcr, int count, int step)$/;"	f
+stbi__addsizes_valid	include/stb_image/stb_image.h	/^static int stbi__addsizes_valid(int a, int b)$/;"	f
+stbi__at_eof	include/stb_image/stb_image.h	/^stbi_inline static int stbi__at_eof(stbi__context *s)$/;"	f
+stbi__bit_reverse	include/stb_image/stb_image.h	/^stbi_inline static int stbi__bit_reverse(int v, int bits)$/;"	f
+stbi__bitcount	include/stb_image/stb_image.h	/^static int stbi__bitcount(unsigned int a)$/;"	f
+stbi__bitreverse16	include/stb_image/stb_image.h	/^stbi_inline static int stbi__bitreverse16(int n)$/;"	f
+stbi__blinn_8x8	include/stb_image/stb_image.h	/^static stbi_uc stbi__blinn_8x8(stbi_uc x, stbi_uc y)$/;"	f
+stbi__bmask	include/stb_image/stb_image.h	/^static const stbi__uint32 stbi__bmask[17]={0,1,3,7,15,31,63,127,255,511,1023,2047,4095,8191,16383,32767,65535};$/;"	v
+stbi__bmp_data	include/stb_image/stb_image.h	/^} stbi__bmp_data;$/;"	t	typeref:struct:__anon25
+stbi__bmp_info	include/stb_image/stb_image.h	/^static int stbi__bmp_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__bmp_load	include/stb_image/stb_image.h	/^static void *stbi__bmp_load(stbi__context *s, int *x, int *y, int *comp, int req_comp, stbi__result_info *ri)$/;"	f
+stbi__bmp_parse_header	include/stb_image/stb_image.h	/^static void *stbi__bmp_parse_header(stbi__context *s, stbi__bmp_data *info)$/;"	f
+stbi__bmp_test	include/stb_image/stb_image.h	/^static int stbi__bmp_test(stbi__context *s)$/;"	f
+stbi__bmp_test_raw	include/stb_image/stb_image.h	/^static int stbi__bmp_test_raw(stbi__context *s)$/;"	f
+stbi__build_fast_ac	include/stb_image/stb_image.h	/^static void stbi__build_fast_ac(stbi__int16 *fast_ac, stbi__huffman *h)$/;"	f
+stbi__build_huffman	include/stb_image/stb_image.h	/^static int stbi__build_huffman(stbi__huffman *h, int *count)$/;"	f
+stbi__check_png_header	include/stb_image/stb_image.h	/^static int stbi__check_png_header(stbi__context *s)$/;"	f
+stbi__clamp	include/stb_image/stb_image.h	/^stbi_inline static stbi_uc stbi__clamp(int x)$/;"	f
+stbi__cleanup_jpeg	include/stb_image/stb_image.h	/^static void stbi__cleanup_jpeg(stbi__jpeg *j)$/;"	f
+stbi__compute_huffman_codes	include/stb_image/stb_image.h	/^static int stbi__compute_huffman_codes(stbi__zbuf *a)$/;"	f
+stbi__compute_transparency	include/stb_image/stb_image.h	/^static int stbi__compute_transparency(stbi__png *z, stbi_uc tc[3], int out_n)$/;"	f
+stbi__compute_transparency16	include/stb_image/stb_image.h	/^static int stbi__compute_transparency16(stbi__png *z, stbi__uint16 tc[3], int out_n)$/;"	f
+stbi__compute_y	include/stb_image/stb_image.h	/^static stbi_uc stbi__compute_y(int r, int g, int b)$/;"	f
+stbi__compute_y_16	include/stb_image/stb_image.h	/^static stbi__uint16 stbi__compute_y_16(int r, int g, int b)$/;"	f
+stbi__context	include/stb_image/stb_image.h	/^} stbi__context;$/;"	t	typeref:struct:__anon12
+stbi__convert_16_to_8	include/stb_image/stb_image.h	/^static stbi_uc *stbi__convert_16_to_8(stbi__uint16 *orig, int w, int h, int channels)$/;"	f
+stbi__convert_8_to_16	include/stb_image/stb_image.h	/^static stbi__uint16 *stbi__convert_8_to_16(stbi_uc *orig, int w, int h, int channels)$/;"	f
+stbi__convert_format	include/stb_image/stb_image.h	/^static unsigned char *stbi__convert_format(unsigned char *data, int img_n, int req_comp, unsigned int x, unsigned int y)$/;"	f
+stbi__convert_format16	include/stb_image/stb_image.h	/^static stbi__uint16 *stbi__convert_format16(stbi__uint16 *data, int img_n, int req_comp, unsigned int x, unsigned int y)$/;"	f
+stbi__copyval	include/stb_image/stb_image.h	/^static void stbi__copyval(int channel,stbi_uc *dest,const stbi_uc *src)$/;"	f
+stbi__cpuid3	include/stb_image/stb_image.h	/^static int stbi__cpuid3(void)$/;"	f
+stbi__create_png_image	include/stb_image/stb_image.h	/^static int stbi__create_png_image(stbi__png *a, stbi_uc *image_data, stbi__uint32 image_data_len, int out_n, int depth, int color, int interlaced)$/;"	f
+stbi__create_png_image_raw	include/stb_image/stb_image.h	/^static int stbi__create_png_image_raw(stbi__png *a, stbi_uc *raw, stbi__uint32 raw_len, int out_n, stbi__uint32 x, stbi__uint32 y, int depth, int color)$/;"	f
+stbi__de_iphone	include/stb_image/stb_image.h	/^static void stbi__de_iphone(stbi__png *z)$/;"	f
+stbi__de_iphone_flag	include/stb_image/stb_image.h	/^static int stbi__de_iphone_flag = 0;$/;"	v
+stbi__decode_jpeg_header	include/stb_image/stb_image.h	/^static int stbi__decode_jpeg_header(stbi__jpeg *z, int scan)$/;"	f
+stbi__decode_jpeg_image	include/stb_image/stb_image.h	/^static int stbi__decode_jpeg_image(stbi__jpeg *j)$/;"	f
+stbi__depth_scale_table	include/stb_image/stb_image.h	/^static const stbi_uc stbi__depth_scale_table[9] = { 0, 0xff, 0x55, 0, 0x11, 0,0,0, 0x01 };$/;"	v
+stbi__div16	include/stb_image/stb_image.h	/^#define stbi__div16(/;"	d
+stbi__div4	include/stb_image/stb_image.h	/^#define stbi__div4(/;"	d
+stbi__do_png	include/stb_image/stb_image.h	/^static void *stbi__do_png(stbi__png *p, int *x, int *y, int *n, int req_comp, stbi__result_info *ri)$/;"	f
+stbi__do_zlib	include/stb_image/stb_image.h	/^static int stbi__do_zlib(stbi__zbuf *a, char *obuf, int olen, int exp, int parse_header)$/;"	f
+stbi__end_write_file	include/stb_image/stb_image_write.h	/^static void stbi__end_write_file(stbi__write_context *s)$/;"	f
+stbi__err	include/stb_image/stb_image.h	/^   #define stbi__err(/;"	d
+stbi__err	include/stb_image/stb_image.h	/^static int stbi__err(const char *str)$/;"	f
+stbi__errpf	include/stb_image/stb_image.h	/^#define stbi__errpf(/;"	d
+stbi__errpuc	include/stb_image/stb_image.h	/^#define stbi__errpuc(/;"	d
+stbi__expand_png_palette	include/stb_image/stb_image.h	/^static int stbi__expand_png_palette(stbi__png *a, stbi_uc *palette, int len, int pal_img_n)$/;"	f
+stbi__extend_receive	include/stb_image/stb_image.h	/^stbi_inline static int stbi__extend_receive(stbi__jpeg *j, int n)$/;"	f
+stbi__f2f	include/stb_image/stb_image.h	/^#define stbi__f2f(/;"	d
+stbi__fill_bits	include/stb_image/stb_image.h	/^static void stbi__fill_bits(stbi__zbuf *z)$/;"	f
+stbi__flip_vertically_on_write	include/stb_image/stb_image_write.h	/^static int stbi__flip_vertically_on_write = 0;$/;"	v
+stbi__float2fixed	include/stb_image/stb_image.h	/^#define stbi__float2fixed(/;"	d
+stbi__float2int	include/stb_image/stb_image.h	/^#define stbi__float2int(/;"	d
+stbi__float_postprocess	include/stb_image/stb_image.h	/^static void stbi__float_postprocess(float *result, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__fopen	include/stb_image/stb_image.h	/^static FILE *stbi__fopen(char const *filename, char const *mode)$/;"	f
+stbi__free_jpeg_components	include/stb_image/stb_image.h	/^static int stbi__free_jpeg_components(stbi__jpeg *z, int ncomp, int why)$/;"	f
+stbi__fsh	include/stb_image/stb_image.h	/^#define stbi__fsh(/;"	d
+stbi__g_failure_reason	include/stb_image/stb_image.h	/^const char *stbi__g_failure_reason;$/;"	v
+stbi__get16be	include/stb_image/stb_image.h	/^static int stbi__get16be(stbi__context *s)$/;"	f
+stbi__get16le	include/stb_image/stb_image.h	/^static int stbi__get16le(stbi__context *s)$/;"	f
+stbi__get32be	include/stb_image/stb_image.h	/^static stbi__uint32 stbi__get32be(stbi__context *s)$/;"	f
+stbi__get32le	include/stb_image/stb_image.h	/^static stbi__uint32 stbi__get32le(stbi__context *s)$/;"	f
+stbi__get8	include/stb_image/stb_image.h	/^stbi_inline static stbi_uc stbi__get8(stbi__context *s)$/;"	f
+stbi__get_chunk_header	include/stb_image/stb_image.h	/^static stbi__pngchunk stbi__get_chunk_header(stbi__context *s)$/;"	f
+stbi__get_marker	include/stb_image/stb_image.h	/^static stbi_uc stbi__get_marker(stbi__jpeg *j)$/;"	f
+stbi__getn	include/stb_image/stb_image.h	/^static int stbi__getn(stbi__context *s, stbi_uc *buffer, int n)$/;"	f
+stbi__gif	include/stb_image/stb_image.h	/^} stbi__gif;$/;"	t	typeref:struct:__anon28
+stbi__gif_header	include/stb_image/stb_image.h	/^static int stbi__gif_header(stbi__context *s, stbi__gif *g, int *comp, int is_info)$/;"	f
+stbi__gif_info	include/stb_image/stb_image.h	/^static int stbi__gif_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__gif_info_raw	include/stb_image/stb_image.h	/^static int stbi__gif_info_raw(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__gif_load	include/stb_image/stb_image.h	/^static void *stbi__gif_load(stbi__context *s, int *x, int *y, int *comp, int req_comp, stbi__result_info *ri)$/;"	f
+stbi__gif_load_next	include/stb_image/stb_image.h	/^static stbi_uc *stbi__gif_load_next(stbi__context *s, stbi__gif *g, int *comp, int req_comp, stbi_uc *two_back)$/;"	f
+stbi__gif_lzw	include/stb_image/stb_image.h	/^} stbi__gif_lzw;$/;"	t	typeref:struct:__anon27
+stbi__gif_parse_colortable	include/stb_image/stb_image.h	/^static void stbi__gif_parse_colortable(stbi__context *s, stbi_uc pal[256][4], int num_entries, int transp)$/;"	f
+stbi__gif_test	include/stb_image/stb_image.h	/^static int stbi__gif_test(stbi__context *s)$/;"	f
+stbi__gif_test_raw	include/stb_image/stb_image.h	/^static int stbi__gif_test_raw(stbi__context *s)$/;"	f
+stbi__grow_buffer_unsafe	include/stb_image/stb_image.h	/^static void stbi__grow_buffer_unsafe(stbi__jpeg *j)$/;"	f
+stbi__h2l_gamma_i	include/stb_image/stb_image.h	/^static float stbi__h2l_gamma_i=1.0f\/2.2f, stbi__h2l_scale_i=1.0f;$/;"	v
+stbi__h2l_scale_i	include/stb_image/stb_image.h	/^static float stbi__h2l_gamma_i=1.0f\/2.2f, stbi__h2l_scale_i=1.0f;$/;"	v
+stbi__hdr_convert	include/stb_image/stb_image.h	/^static void stbi__hdr_convert(float *output, stbi_uc *input, int req_comp)$/;"	f
+stbi__hdr_gettoken	include/stb_image/stb_image.h	/^static char *stbi__hdr_gettoken(stbi__context *z, char *buffer)$/;"	f
+stbi__hdr_info	include/stb_image/stb_image.h	/^static int stbi__hdr_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__hdr_load	include/stb_image/stb_image.h	/^static float *stbi__hdr_load(stbi__context *s, int *x, int *y, int *comp, int req_comp, stbi__result_info *ri)$/;"	f
+stbi__hdr_test	include/stb_image/stb_image.h	/^static int stbi__hdr_test(stbi__context* s)$/;"	f
+stbi__hdr_test_core	include/stb_image/stb_image.h	/^static int stbi__hdr_test_core(stbi__context *s, const char *signature)$/;"	f
+stbi__hdr_to_ldr	include/stb_image/stb_image.h	/^static stbi_uc *stbi__hdr_to_ldr(float   *data, int x, int y, int comp)$/;"	f
+stbi__high_bit	include/stb_image/stb_image.h	/^static int stbi__high_bit(unsigned int z)$/;"	f
+stbi__huffman	include/stb_image/stb_image.h	/^} stbi__huffman;$/;"	t	typeref:struct:__anon16
+stbi__idct_block	include/stb_image/stb_image.h	/^static void stbi__idct_block(stbi_uc *out, int out_stride, short data[64])$/;"	f
+stbi__idct_simd	include/stb_image/stb_image.h	/^static void stbi__idct_simd(stbi_uc *out, int out_stride, short data[64])$/;"	f
+stbi__info_main	include/stb_image/stb_image.h	/^static int stbi__info_main(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__int16	include/stb_image/stb_image.h	/^typedef   signed short stbi__int16;$/;"	t
+stbi__int16	include/stb_image/stb_image.h	/^typedef int16_t  stbi__int16;$/;"	t
+stbi__int32	include/stb_image/stb_image.h	/^typedef   signed int   stbi__int32;$/;"	t
+stbi__int32	include/stb_image/stb_image.h	/^typedef int32_t  stbi__int32;$/;"	t
+stbi__is_16_main	include/stb_image/stb_image.h	/^static int stbi__is_16_main(stbi__context *s)$/;"	f
+stbi__jbias	include/stb_image/stb_image.h	/^static const int stbi__jbias[16] = {0,-1,-3,-7,-15,-31,-63,-127,-255,-511,-1023,-2047,-4095,-8191,-16383,-32767};$/;"	v
+stbi__jpeg	include/stb_image/stb_image.h	/^} stbi__jpeg;$/;"	t	typeref:struct:__anon17
+stbi__jpeg_decode_block	include/stb_image/stb_image.h	/^static int stbi__jpeg_decode_block(stbi__jpeg *j, short data[64], stbi__huffman *hdc, stbi__huffman *hac, stbi__int16 *fac, int b, stbi__uint16 *dequant)$/;"	f
+stbi__jpeg_decode_block_prog_ac	include/stb_image/stb_image.h	/^static int stbi__jpeg_decode_block_prog_ac(stbi__jpeg *j, short data[64], stbi__huffman *hac, stbi__int16 *fac)$/;"	f
+stbi__jpeg_decode_block_prog_dc	include/stb_image/stb_image.h	/^static int stbi__jpeg_decode_block_prog_dc(stbi__jpeg *j, short data[64], stbi__huffman *hdc, int b)$/;"	f
+stbi__jpeg_dequantize	include/stb_image/stb_image.h	/^static void stbi__jpeg_dequantize(short *data, stbi__uint16 *dequant)$/;"	f
+stbi__jpeg_dezigzag	include/stb_image/stb_image.h	/^static const stbi_uc stbi__jpeg_dezigzag[64+15] =$/;"	v
+stbi__jpeg_finish	include/stb_image/stb_image.h	/^static void stbi__jpeg_finish(stbi__jpeg *z)$/;"	f
+stbi__jpeg_get_bit	include/stb_image/stb_image.h	/^stbi_inline static int stbi__jpeg_get_bit(stbi__jpeg *j)$/;"	f
+stbi__jpeg_get_bits	include/stb_image/stb_image.h	/^stbi_inline static int stbi__jpeg_get_bits(stbi__jpeg *j, int n)$/;"	f
+stbi__jpeg_huff_decode	include/stb_image/stb_image.h	/^stbi_inline static int stbi__jpeg_huff_decode(stbi__jpeg *j, stbi__huffman *h)$/;"	f
+stbi__jpeg_info	include/stb_image/stb_image.h	/^static int stbi__jpeg_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__jpeg_info_raw	include/stb_image/stb_image.h	/^static int stbi__jpeg_info_raw(stbi__jpeg *j, int *x, int *y, int *comp)$/;"	f
+stbi__jpeg_load	include/stb_image/stb_image.h	/^static void *stbi__jpeg_load(stbi__context *s, int *x, int *y, int *comp, int req_comp, stbi__result_info *ri)$/;"	f
+stbi__jpeg_reset	include/stb_image/stb_image.h	/^static void stbi__jpeg_reset(stbi__jpeg *j)$/;"	f
+stbi__jpeg_test	include/stb_image/stb_image.h	/^static int stbi__jpeg_test(stbi__context *s)$/;"	f
+stbi__l2h_gamma	include/stb_image/stb_image.h	/^static float stbi__l2h_gamma=2.2f, stbi__l2h_scale=1.0f;$/;"	v
+stbi__l2h_scale	include/stb_image/stb_image.h	/^static float stbi__l2h_gamma=2.2f, stbi__l2h_scale=1.0f;$/;"	v
+stbi__ldr_to_hdr	include/stb_image/stb_image.h	/^static float   *stbi__ldr_to_hdr(stbi_uc *data, int x, int y, int comp)$/;"	f
+stbi__load_and_postprocess_16bit	include/stb_image/stb_image.h	/^static stbi__uint16 *stbi__load_and_postprocess_16bit(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__load_and_postprocess_8bit	include/stb_image/stb_image.h	/^static unsigned char *stbi__load_and_postprocess_8bit(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__load_gif_main	include/stb_image/stb_image.h	/^static void *stbi__load_gif_main(stbi__context *s, int **delays, int *x, int *y, int *z, int *comp, int req_comp)$/;"	f
+stbi__load_main	include/stb_image/stb_image.h	/^static void *stbi__load_main(stbi__context *s, int *x, int *y, int *comp, int req_comp, stbi__result_info *ri, int bpc)$/;"	f
+stbi__loadf_main	include/stb_image/stb_image.h	/^static float *stbi__loadf_main(stbi__context *s, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi__mad2sizes_valid	include/stb_image/stb_image.h	/^static int stbi__mad2sizes_valid(int a, int b, int add)$/;"	f
+stbi__mad3sizes_valid	include/stb_image/stb_image.h	/^static int stbi__mad3sizes_valid(int a, int b, int c, int add)$/;"	f
+stbi__mad4sizes_valid	include/stb_image/stb_image.h	/^static int stbi__mad4sizes_valid(int a, int b, int c, int d, int add)$/;"	f
+stbi__malloc	include/stb_image/stb_image.h	/^static void *stbi__malloc(size_t size)$/;"	f
+stbi__malloc_mad2	include/stb_image/stb_image.h	/^static void *stbi__malloc_mad2(int a, int b, int add)$/;"	f
+stbi__malloc_mad3	include/stb_image/stb_image.h	/^static void *stbi__malloc_mad3(int a, int b, int c, int add)$/;"	f
+stbi__malloc_mad4	include/stb_image/stb_image.h	/^static void *stbi__malloc_mad4(int a, int b, int c, int d, int add)$/;"	f
+stbi__mul2sizes_valid	include/stb_image/stb_image.h	/^static int stbi__mul2sizes_valid(int a, int b)$/;"	f
+stbi__out_gif_code	include/stb_image/stb_image.h	/^static void stbi__out_gif_code(stbi__gif *g, stbi__uint16 code)$/;"	f
+stbi__paeth	include/stb_image/stb_image.h	/^static int stbi__paeth(int a, int b, int c)$/;"	f
+stbi__parse_entropy_coded_data	include/stb_image/stb_image.h	/^static int stbi__parse_entropy_coded_data(stbi__jpeg *z)$/;"	f
+stbi__parse_huffman_block	include/stb_image/stb_image.h	/^static int stbi__parse_huffman_block(stbi__zbuf *a)$/;"	f
+stbi__parse_png_file	include/stb_image/stb_image.h	/^static int stbi__parse_png_file(stbi__png *z, int scan, int req_comp)$/;"	f
+stbi__parse_uncompressed_block	include/stb_image/stb_image.h	/^static int stbi__parse_uncompressed_block(stbi__zbuf *a)$/;"	f
+stbi__parse_zlib	include/stb_image/stb_image.h	/^static int stbi__parse_zlib(stbi__zbuf *a, int parse_header)$/;"	f
+stbi__parse_zlib_header	include/stb_image/stb_image.h	/^static int stbi__parse_zlib_header(stbi__zbuf *a)$/;"	f
+stbi__pic_info	include/stb_image/stb_image.h	/^static int stbi__pic_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__pic_is4	include/stb_image/stb_image.h	/^static int stbi__pic_is4(stbi__context *s,const char *str)$/;"	f
+stbi__pic_load	include/stb_image/stb_image.h	/^static void *stbi__pic_load(stbi__context *s,int *px,int *py,int *comp,int req_comp, stbi__result_info *ri)$/;"	f
+stbi__pic_load_core	include/stb_image/stb_image.h	/^static stbi_uc *stbi__pic_load_core(stbi__context *s,int width,int height,int *comp, stbi_uc *result)$/;"	f
+stbi__pic_packet	include/stb_image/stb_image.h	/^} stbi__pic_packet;$/;"	t	typeref:struct:__anon26
+stbi__pic_test	include/stb_image/stb_image.h	/^static int stbi__pic_test(stbi__context *s)$/;"	f
+stbi__pic_test_core	include/stb_image/stb_image.h	/^static int stbi__pic_test_core(stbi__context *s)$/;"	f
+stbi__png	include/stb_image/stb_image.h	/^} stbi__png;$/;"	t	typeref:struct:__anon23
+stbi__png_info	include/stb_image/stb_image.h	/^static int stbi__png_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__png_info_raw	include/stb_image/stb_image.h	/^static int stbi__png_info_raw(stbi__png *p, int *x, int *y, int *comp)$/;"	f
+stbi__png_is16	include/stb_image/stb_image.h	/^static int stbi__png_is16(stbi__context *s)$/;"	f
+stbi__png_load	include/stb_image/stb_image.h	/^static void *stbi__png_load(stbi__context *s, int *x, int *y, int *comp, int req_comp, stbi__result_info *ri)$/;"	f
+stbi__png_test	include/stb_image/stb_image.h	/^static int stbi__png_test(stbi__context *s)$/;"	f
+stbi__pngchunk	include/stb_image/stb_image.h	/^} stbi__pngchunk;$/;"	t	typeref:struct:__anon22
+stbi__pnm_getinteger	include/stb_image/stb_image.h	/^static int      stbi__pnm_getinteger(stbi__context *s, char *c)$/;"	f
+stbi__pnm_info	include/stb_image/stb_image.h	/^static int      stbi__pnm_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__pnm_isdigit	include/stb_image/stb_image.h	/^static int      stbi__pnm_isdigit(char c)$/;"	f
+stbi__pnm_isspace	include/stb_image/stb_image.h	/^static int      stbi__pnm_isspace(char c)$/;"	f
+stbi__pnm_load	include/stb_image/stb_image.h	/^static void *stbi__pnm_load(stbi__context *s, int *x, int *y, int *comp, int req_comp, stbi__result_info *ri)$/;"	f
+stbi__pnm_skip_whitespace	include/stb_image/stb_image.h	/^static void     stbi__pnm_skip_whitespace(stbi__context *s, char *c)$/;"	f
+stbi__pnm_test	include/stb_image/stb_image.h	/^static int      stbi__pnm_test(stbi__context *s)$/;"	f
+stbi__process_frame_header	include/stb_image/stb_image.h	/^static int stbi__process_frame_header(stbi__jpeg *z, int scan)$/;"	f
+stbi__process_gif_raster	include/stb_image/stb_image.h	/^static stbi_uc *stbi__process_gif_raster(stbi__context *s, stbi__gif *g)$/;"	f
+stbi__process_marker	include/stb_image/stb_image.h	/^static int stbi__process_marker(stbi__jpeg *z, int m)$/;"	f
+stbi__process_scan_header	include/stb_image/stb_image.h	/^static int stbi__process_scan_header(stbi__jpeg *z)$/;"	f
+stbi__psd_decode_rle	include/stb_image/stb_image.h	/^static int stbi__psd_decode_rle(stbi__context *s, stbi_uc *p, int pixelCount)$/;"	f
+stbi__psd_info	include/stb_image/stb_image.h	/^static int stbi__psd_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__psd_is16	include/stb_image/stb_image.h	/^static int stbi__psd_is16(stbi__context *s)$/;"	f
+stbi__psd_load	include/stb_image/stb_image.h	/^static void *stbi__psd_load(stbi__context *s, int *x, int *y, int *comp, int req_comp, stbi__result_info *ri, int bpc)$/;"	f
+stbi__psd_test	include/stb_image/stb_image.h	/^static int stbi__psd_test(stbi__context *s)$/;"	f
+stbi__readval	include/stb_image/stb_image.h	/^static stbi_uc *stbi__readval(stbi__context *s, int channel, stbi_uc *dest)$/;"	f
+stbi__refill_buffer	include/stb_image/stb_image.h	/^static void stbi__refill_buffer(stbi__context *s)$/;"	f
+stbi__resample	include/stb_image/stb_image.h	/^} stbi__resample;$/;"	t	typeref:struct:__anon19
+stbi__resample_row_generic	include/stb_image/stb_image.h	/^static stbi_uc *stbi__resample_row_generic(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs)$/;"	f
+stbi__resample_row_h_2	include/stb_image/stb_image.h	/^static stbi_uc*  stbi__resample_row_h_2(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs)$/;"	f
+stbi__resample_row_hv_2	include/stb_image/stb_image.h	/^static stbi_uc *stbi__resample_row_hv_2(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs)$/;"	f
+stbi__resample_row_hv_2_simd	include/stb_image/stb_image.h	/^static stbi_uc *stbi__resample_row_hv_2_simd(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs)$/;"	f
+stbi__resample_row_v_2	include/stb_image/stb_image.h	/^static stbi_uc* stbi__resample_row_v_2(stbi_uc *out, stbi_uc *in_near, stbi_uc *in_far, int w, int hs)$/;"	f
+stbi__result_info	include/stb_image/stb_image.h	/^} stbi__result_info;$/;"	t	typeref:struct:__anon14
+stbi__rewind	include/stb_image/stb_image.h	/^static void stbi__rewind(stbi__context *s)$/;"	f
+stbi__setup_jpeg	include/stb_image/stb_image.h	/^static void stbi__setup_jpeg(stbi__jpeg *j)$/;"	f
+stbi__shiftsigned	include/stb_image/stb_image.h	/^static int stbi__shiftsigned(unsigned int v, int shift, int bits)$/;"	f
+stbi__skip	include/stb_image/stb_image.h	/^static void stbi__skip(stbi__context *s, int n)$/;"	f
+stbi__sse2_available	include/stb_image/stb_image.h	/^static int stbi__sse2_available(void)$/;"	f
+stbi__start_callbacks	include/stb_image/stb_image.h	/^static void stbi__start_callbacks(stbi__context *s, stbi_io_callbacks *c, void *user)$/;"	f
+stbi__start_file	include/stb_image/stb_image.h	/^static void stbi__start_file(stbi__context *s, FILE *f)$/;"	f
+stbi__start_mem	include/stb_image/stb_image.h	/^static void stbi__start_mem(stbi__context *s, stbi_uc const *buffer, int len)$/;"	f
+stbi__start_write_callbacks	include/stb_image/stb_image_write.h	/^static void stbi__start_write_callbacks(stbi__write_context *s, stbi_write_func *c, void *context)$/;"	f
+stbi__start_write_file	include/stb_image/stb_image_write.h	/^static int stbi__start_write_file(stbi__write_context *s, const char *filename)$/;"	f
+stbi__stdio_callbacks	include/stb_image/stb_image.h	/^static stbi_io_callbacks stbi__stdio_callbacks =$/;"	v
+stbi__stdio_eof	include/stb_image/stb_image.h	/^static int stbi__stdio_eof(void *user)$/;"	f
+stbi__stdio_read	include/stb_image/stb_image.h	/^static int stbi__stdio_read(void *user, char *data, int size)$/;"	f
+stbi__stdio_skip	include/stb_image/stb_image.h	/^static void stbi__stdio_skip(void *user, int n)$/;"	f
+stbi__stdio_write	include/stb_image/stb_image_write.h	/^static void stbi__stdio_write(void *context, void *data, int size)$/;"	f
+stbi__tga_get_comp	include/stb_image/stb_image.h	/^static int stbi__tga_get_comp(int bits_per_pixel, int is_grey, int* is_rgb16)$/;"	f
+stbi__tga_info	include/stb_image/stb_image.h	/^static int stbi__tga_info(stbi__context *s, int *x, int *y, int *comp)$/;"	f
+stbi__tga_load	include/stb_image/stb_image.h	/^static void *stbi__tga_load(stbi__context *s, int *x, int *y, int *comp, int req_comp, stbi__result_info *ri)$/;"	f
+stbi__tga_read_rgb16	include/stb_image/stb_image.h	/^static void stbi__tga_read_rgb16(stbi__context *s, stbi_uc* out)$/;"	f
+stbi__tga_test	include/stb_image/stb_image.h	/^static int stbi__tga_test(stbi__context *s)$/;"	f
+stbi__uint16	include/stb_image/stb_image.h	/^typedef uint16_t stbi__uint16;$/;"	t
+stbi__uint16	include/stb_image/stb_image.h	/^typedef unsigned short stbi__uint16;$/;"	t
+stbi__uint32	include/stb_image/stb_image.h	/^typedef uint32_t stbi__uint32;$/;"	t
+stbi__uint32	include/stb_image/stb_image.h	/^typedef unsigned int   stbi__uint32;$/;"	t
+stbi__unpremultiply_on_load	include/stb_image/stb_image.h	/^static int stbi__unpremultiply_on_load = 0;$/;"	v
+stbi__vertical_flip	include/stb_image/stb_image.h	/^static void stbi__vertical_flip(void *image, int w, int h, int bytes_per_pixel)$/;"	f
+stbi__vertical_flip_slices	include/stb_image/stb_image.h	/^static void stbi__vertical_flip_slices(void *image, int w, int h, int z, int bytes_per_pixel)$/;"	f
+stbi__vertically_flip_on_load	include/stb_image/stb_image.h	/^#define stbi__vertically_flip_on_load /;"	d
+stbi__vertically_flip_on_load_global	include/stb_image/stb_image.h	/^static int stbi__vertically_flip_on_load_global = 0;$/;"	v
+stbi__vertically_flip_on_load_local	include/stb_image/stb_image.h	/^static STBI_THREAD_LOCAL int stbi__vertically_flip_on_load_local, stbi__vertically_flip_on_load_set;$/;"	v
+stbi__vertically_flip_on_load_set	include/stb_image/stb_image.h	/^static STBI_THREAD_LOCAL int stbi__vertically_flip_on_load_local, stbi__vertically_flip_on_load_set;$/;"	v
+stbi__write_context	include/stb_image/stb_image_write.h	/^} stbi__write_context;$/;"	t	typeref:struct:__anon1
+stbi__zbuf	include/stb_image/stb_image.h	/^} stbi__zbuf;$/;"	t	typeref:struct:__anon21
+stbi__zbuild_huffman	include/stb_image/stb_image.h	/^static int stbi__zbuild_huffman(stbi__zhuffman *z, const stbi_uc *sizelist, int num)$/;"	f
+stbi__zdefault_distance	include/stb_image/stb_image.h	/^static const stbi_uc stbi__zdefault_distance[32] =$/;"	v
+stbi__zdefault_length	include/stb_image/stb_image.h	/^static const stbi_uc stbi__zdefault_length[288] =$/;"	v
+stbi__zdist_base	include/stb_image/stb_image.h	/^static const int stbi__zdist_base[32] = { 1,2,3,4,5,7,9,13,17,25,33,49,65,97,129,193,$/;"	v
+stbi__zdist_extra	include/stb_image/stb_image.h	/^static const int stbi__zdist_extra[32] =$/;"	v
+stbi__zeof	include/stb_image/stb_image.h	/^stbi_inline static int stbi__zeof(stbi__zbuf *z)$/;"	f
+stbi__zexpand	include/stb_image/stb_image.h	/^static int stbi__zexpand(stbi__zbuf *z, char *zout, int n)  \/\/ need to make room for n bytes$/;"	f
+stbi__zget8	include/stb_image/stb_image.h	/^stbi_inline static stbi_uc stbi__zget8(stbi__zbuf *z)$/;"	f
+stbi__zhuffman	include/stb_image/stb_image.h	/^} stbi__zhuffman;$/;"	t	typeref:struct:__anon20
+stbi__zhuffman_decode	include/stb_image/stb_image.h	/^stbi_inline static int stbi__zhuffman_decode(stbi__zbuf *a, stbi__zhuffman *z)$/;"	f
+stbi__zhuffman_decode_slowpath	include/stb_image/stb_image.h	/^static int stbi__zhuffman_decode_slowpath(stbi__zbuf *a, stbi__zhuffman *z)$/;"	f
+stbi__zlength_base	include/stb_image/stb_image.h	/^static const int stbi__zlength_base[31] = {$/;"	v
+stbi__zlength_extra	include/stb_image/stb_image.h	/^static const int stbi__zlength_extra[31]=$/;"	v
+stbi__zreceive	include/stb_image/stb_image.h	/^stbi_inline static unsigned int stbi__zreceive(stbi__zbuf *z, int n)$/;"	f
+stbi_convert_iphone_png_to_rgb	include/stb_image/stb_image.h	/^STBIDEF void stbi_convert_iphone_png_to_rgb(int flag_true_if_should_convert)$/;"	f
+stbi_convert_wchar_to_utf8	include/stb_image/stb_image.h	/^STBIDEF int stbi_convert_wchar_to_utf8(char *buffer, size_t bufferlen, const wchar_t* input)$/;"	f
+stbi_failure_reason	include/stb_image/stb_image.h	/^STBIDEF const char *stbi_failure_reason(void)$/;"	f
+stbi_flip_vertically_on_write	include/stb_image/stb_image_write.h	/^STBIWDEF void stbi_flip_vertically_on_write(int flag)$/;"	f
+stbi_hdr_to_ldr_gamma	include/stb_image/stb_image.h	/^STBIDEF void   stbi_hdr_to_ldr_gamma(float gamma) { stbi__h2l_gamma_i = 1\/gamma; }$/;"	f
+stbi_hdr_to_ldr_scale	include/stb_image/stb_image.h	/^STBIDEF void   stbi_hdr_to_ldr_scale(float scale) { stbi__h2l_scale_i = 1\/scale; }$/;"	f
+stbi_image_free	include/stb_image/stb_image.h	/^STBIDEF void stbi_image_free(void *retval_from_stbi_load)$/;"	f
+stbi_info	include/stb_image/stb_image.h	/^STBIDEF int stbi_info(char const *filename, int *x, int *y, int *comp)$/;"	f
+stbi_info_from_callbacks	include/stb_image/stb_image.h	/^STBIDEF int stbi_info_from_callbacks(stbi_io_callbacks const *c, void *user, int *x, int *y, int *comp)$/;"	f
+stbi_info_from_file	include/stb_image/stb_image.h	/^STBIDEF int stbi_info_from_file(FILE *f, int *x, int *y, int *comp)$/;"	f
+stbi_info_from_memory	include/stb_image/stb_image.h	/^STBIDEF int stbi_info_from_memory(stbi_uc const *buffer, int len, int *x, int *y, int *comp)$/;"	f
+stbi_inline	include/stb_image/stb_image.h	/^   #define stbi_inline /;"	d
+stbi_inline	include/stb_image/stb_image.h	/^   #define stbi_inline$/;"	d
+stbi_io_callbacks	include/stb_image/stb_image.h	/^} stbi_io_callbacks;$/;"	t	typeref:struct:__anon11
+stbi_is_16_bit	include/stb_image/stb_image.h	/^STBIDEF int stbi_is_16_bit(char const *filename)$/;"	f
+stbi_is_16_bit_from_callbacks	include/stb_image/stb_image.h	/^STBIDEF int stbi_is_16_bit_from_callbacks(stbi_io_callbacks const *c, void *user)$/;"	f
+stbi_is_16_bit_from_file	include/stb_image/stb_image.h	/^STBIDEF int stbi_is_16_bit_from_file(FILE *f)$/;"	f
+stbi_is_16_bit_from_memory	include/stb_image/stb_image.h	/^STBIDEF int stbi_is_16_bit_from_memory(stbi_uc const *buffer, int len)$/;"	f
+stbi_is_hdr	include/stb_image/stb_image.h	/^STBIDEF int      stbi_is_hdr          (char const *filename)$/;"	f
+stbi_is_hdr_from_callbacks	include/stb_image/stb_image.h	/^STBIDEF int      stbi_is_hdr_from_callbacks(stbi_io_callbacks const *clbk, void *user)$/;"	f
+stbi_is_hdr_from_file	include/stb_image/stb_image.h	/^STBIDEF int stbi_is_hdr_from_file(FILE *f)$/;"	f
+stbi_is_hdr_from_memory	include/stb_image/stb_image.h	/^STBIDEF int stbi_is_hdr_from_memory(stbi_uc const *buffer, int len)$/;"	f
+stbi_ldr_to_hdr_gamma	include/stb_image/stb_image.h	/^STBIDEF void   stbi_ldr_to_hdr_gamma(float gamma) { stbi__l2h_gamma = gamma; }$/;"	f
+stbi_ldr_to_hdr_scale	include/stb_image/stb_image.h	/^STBIDEF void   stbi_ldr_to_hdr_scale(float scale) { stbi__l2h_scale = scale; }$/;"	f
+stbi_load	include/stb_image/stb_image.h	/^STBIDEF stbi_uc *stbi_load(char const *filename, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_load_16	include/stb_image/stb_image.h	/^STBIDEF stbi_us *stbi_load_16(char const *filename, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_load_16_from_callbacks	include/stb_image/stb_image.h	/^STBIDEF stbi_us *stbi_load_16_from_callbacks(stbi_io_callbacks const *clbk, void *user, int *x, int *y, int *channels_in_file, int desired_channels)$/;"	f
+stbi_load_16_from_memory	include/stb_image/stb_image.h	/^STBIDEF stbi_us *stbi_load_16_from_memory(stbi_uc const *buffer, int len, int *x, int *y, int *channels_in_file, int desired_channels)$/;"	f
+stbi_load_from_callbacks	include/stb_image/stb_image.h	/^STBIDEF stbi_uc *stbi_load_from_callbacks(stbi_io_callbacks const *clbk, void *user, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_load_from_file	include/stb_image/stb_image.h	/^STBIDEF stbi_uc *stbi_load_from_file(FILE *f, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_load_from_file_16	include/stb_image/stb_image.h	/^STBIDEF stbi__uint16 *stbi_load_from_file_16(FILE *f, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_load_from_memory	include/stb_image/stb_image.h	/^STBIDEF stbi_uc *stbi_load_from_memory(stbi_uc const *buffer, int len, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_load_gif_from_memory	include/stb_image/stb_image.h	/^STBIDEF stbi_uc *stbi_load_gif_from_memory(stbi_uc const *buffer, int len, int **delays, int *x, int *y, int *z, int *comp, int req_comp)$/;"	f
+stbi_loadf	include/stb_image/stb_image.h	/^STBIDEF float *stbi_loadf(char const *filename, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_loadf_from_callbacks	include/stb_image/stb_image.h	/^STBIDEF float *stbi_loadf_from_callbacks(stbi_io_callbacks const *clbk, void *user, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_loadf_from_file	include/stb_image/stb_image.h	/^STBIDEF float *stbi_loadf_from_file(FILE *f, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_loadf_from_memory	include/stb_image/stb_image.h	/^STBIDEF float *stbi_loadf_from_memory(stbi_uc const *buffer, int len, int *x, int *y, int *comp, int req_comp)$/;"	f
+stbi_lrot	include/stb_image/stb_image.h	/^   #define stbi_lrot(/;"	d
+stbi_set_flip_vertically_on_load	include/stb_image/stb_image.h	/^STBIDEF void stbi_set_flip_vertically_on_load(int flag_true_if_should_flip)$/;"	f
+stbi_set_flip_vertically_on_load_thread	include/stb_image/stb_image.h	/^STBIDEF void stbi_set_flip_vertically_on_load_thread(int flag_true_if_should_flip)$/;"	f
+stbi_set_unpremultiply_on_load	include/stb_image/stb_image.h	/^STBIDEF void stbi_set_unpremultiply_on_load(int flag_true_if_should_unpremultiply)$/;"	f
+stbi_uc	include/stb_image/stb_image.h	/^typedef unsigned char stbi_uc;$/;"	t
+stbi_us	include/stb_image/stb_image.h	/^typedef unsigned short stbi_us;$/;"	t
+stbi_write_bmp	include/stb_image/stb_image_write.h	/^STBIWDEF int stbi_write_bmp(char const *filename, int x, int y, int comp, const void *data)$/;"	f
+stbi_write_bmp_core	include/stb_image/stb_image_write.h	/^static int stbi_write_bmp_core(stbi__write_context *s, int x, int y, int comp, const void *data)$/;"	f
+stbi_write_bmp_to_func	include/stb_image/stb_image_write.h	/^STBIWDEF int stbi_write_bmp_to_func(stbi_write_func *func, void *context, int x, int y, int comp, const void *data)$/;"	f
+stbi_write_force_png_filter	include/stb_image/stb_image_write.h	/^int stbi_write_force_png_filter = -1;$/;"	v
+stbi_write_force_png_filter	include/stb_image/stb_image_write.h	/^static int stbi_write_force_png_filter = -1;$/;"	v
+stbi_write_func	include/stb_image/stb_image_write.h	/^typedef void stbi_write_func(void *context, void *data, int size);$/;"	t
+stbi_write_hdr	include/stb_image/stb_image_write.h	/^STBIWDEF int stbi_write_hdr(char const *filename, int x, int y, int comp, const float *data)$/;"	f
+stbi_write_hdr_core	include/stb_image/stb_image_write.h	/^static int stbi_write_hdr_core(stbi__write_context *s, int x, int y, int comp, float *data)$/;"	f
+stbi_write_hdr_to_func	include/stb_image/stb_image_write.h	/^STBIWDEF int stbi_write_hdr_to_func(stbi_write_func *func, void *context, int x, int y, int comp, const float *data)$/;"	f
+stbi_write_jpg	include/stb_image/stb_image_write.h	/^STBIWDEF int stbi_write_jpg(char const *filename, int x, int y, int comp, const void *data, int quality)$/;"	f
+stbi_write_jpg_core	include/stb_image/stb_image_write.h	/^static int stbi_write_jpg_core(stbi__write_context *s, int width, int height, int comp, const void* data, int quality) {$/;"	f
+stbi_write_jpg_to_func	include/stb_image/stb_image_write.h	/^STBIWDEF int stbi_write_jpg_to_func(stbi_write_func *func, void *context, int x, int y, int comp, const void *data, int quality)$/;"	f
+stbi_write_png	include/stb_image/stb_image_write.h	/^STBIWDEF int stbi_write_png(char const *filename, int x, int y, int comp, const void *data, int stride_bytes)$/;"	f
+stbi_write_png_compression_level	include/stb_image/stb_image_write.h	/^int stbi_write_png_compression_level = 8;$/;"	v
+stbi_write_png_compression_level	include/stb_image/stb_image_write.h	/^static int stbi_write_png_compression_level = 8;$/;"	v
+stbi_write_png_to_func	include/stb_image/stb_image_write.h	/^STBIWDEF int stbi_write_png_to_func(stbi_write_func *func, void *context, int x, int y, int comp, const void *data, int stride_bytes)$/;"	f
+stbi_write_png_to_mem	include/stb_image/stb_image_write.h	/^STBIWDEF unsigned char *stbi_write_png_to_mem(const unsigned char *pixels, int stride_bytes, int x, int y, int n, int *out_len)$/;"	f
+stbi_write_tga	include/stb_image/stb_image_write.h	/^STBIWDEF int stbi_write_tga(char const *filename, int x, int y, int comp, const void *data)$/;"	f
+stbi_write_tga_core	include/stb_image/stb_image_write.h	/^static int stbi_write_tga_core(stbi__write_context *s, int x, int y, int comp, void *data)$/;"	f
+stbi_write_tga_to_func	include/stb_image/stb_image_write.h	/^STBIWDEF int stbi_write_tga_to_func(stbi_write_func *func, void *context, int x, int y, int comp, const void *data)$/;"	f
+stbi_write_tga_with_rle	include/stb_image/stb_image_write.h	/^int stbi_write_tga_with_rle = 1;$/;"	v
+stbi_write_tga_with_rle	include/stb_image/stb_image_write.h	/^static int stbi_write_tga_with_rle = 1;$/;"	v
+stbi_zlib_compress	include/stb_image/stb_image_write.h	/^STBIWDEF unsigned char * stbi_zlib_compress(unsigned char *data, int data_len, int *out_len, int quality)$/;"	f
+stbi_zlib_decode_buffer	include/stb_image/stb_image.h	/^STBIDEF int stbi_zlib_decode_buffer(char *obuffer, int olen, char const *ibuffer, int ilen)$/;"	f
+stbi_zlib_decode_malloc	include/stb_image/stb_image.h	/^STBIDEF char *stbi_zlib_decode_malloc(char const *buffer, int len, int *outlen)$/;"	f
+stbi_zlib_decode_malloc_guesssize	include/stb_image/stb_image.h	/^STBIDEF char *stbi_zlib_decode_malloc_guesssize(const char *buffer, int len, int initial_size, int *outlen)$/;"	f
+stbi_zlib_decode_malloc_guesssize_headerflag	include/stb_image/stb_image.h	/^STBIDEF char *stbi_zlib_decode_malloc_guesssize_headerflag(const char *buffer, int len, int initial_size, int *outlen, int parse_header)$/;"	f
+stbi_zlib_decode_noheader_buffer	include/stb_image/stb_image.h	/^STBIDEF int stbi_zlib_decode_noheader_buffer(char *obuffer, int olen, const char *ibuffer, int ilen)$/;"	f
+stbi_zlib_decode_noheader_malloc	include/stb_image/stb_image.h	/^STBIDEF char *stbi_zlib_decode_noheader_malloc(char const *buffer, int len, int *outlen)$/;"	f
+stbir__FP32	include/stb_image/stb_image_resize.h	/^} stbir__FP32;$/;"	t	typeref:union:__anon9
+stbir__add_empty_ring_buffer_entry	include/stb_image/stb_image_resize.h	/^static float* stbir__add_empty_ring_buffer_entry(stbir__info* stbir_info, int n)$/;"	f
+stbir__buffer_loop_downsample	include/stb_image/stb_image_resize.h	/^static void stbir__buffer_loop_downsample(stbir__info* stbir_info)$/;"	f
+stbir__buffer_loop_upsample	include/stb_image/stb_image_resize.h	/^static void stbir__buffer_loop_upsample(stbir__info* stbir_info)$/;"	f
+stbir__calculate_coefficients_downsample	include/stb_image/stb_image_resize.h	/^static void stbir__calculate_coefficients_downsample(stbir_filter filter, float scale_ratio, int out_first_pixel, int out_last_pixel, float out_center_of_in, stbir__contributors* contributor, float* coefficient_group)$/;"	f
+stbir__calculate_coefficients_upsample	include/stb_image/stb_image_resize.h	/^static void stbir__calculate_coefficients_upsample(stbir_filter filter, float scale, int in_first_pixel, int in_last_pixel, float in_center_of_out, stbir__contributors* contributor, float* coefficient_group)$/;"	f
+stbir__calculate_filters	include/stb_image/stb_image_resize.h	/^static void stbir__calculate_filters(stbir__contributors* contributors, float* coefficients, stbir_filter filter, float scale_ratio, float shift, int input_size, int output_size)$/;"	f
+stbir__calculate_memory	include/stb_image/stb_image_resize.h	/^static stbir_uint32 stbir__calculate_memory(stbir__info *info)$/;"	f
+stbir__calculate_sample_range_downsample	include/stb_image/stb_image_resize.h	/^static void stbir__calculate_sample_range_downsample(int n, float in_pixels_radius, float scale_ratio, float out_shift, int* out_first_pixel, int* out_last_pixel, float* out_center_of_in)$/;"	f
+stbir__calculate_sample_range_upsample	include/stb_image/stb_image_resize.h	/^static void stbir__calculate_sample_range_upsample(int n, float out_filter_radius, float scale_ratio, float out_shift, int* in_first_pixel, int* in_last_pixel, float* in_center_of_out)$/;"	f
+stbir__calculate_transform	include/stb_image/stb_image_resize.h	/^static void stbir__calculate_transform(stbir__info *info, float s0, float t0, float s1, float t1, float *transform)$/;"	f
+stbir__choose_filter	include/stb_image/stb_image_resize.h	/^static void stbir__choose_filter(stbir__info *info, stbir_filter h_filter, stbir_filter v_filter)$/;"	f
+stbir__contributors	include/stb_image/stb_image_resize.h	/^} stbir__contributors;$/;"	t	typeref:struct:__anon7
+stbir__decode_and_resample_downsample	include/stb_image/stb_image_resize.h	/^static void stbir__decode_and_resample_downsample(stbir__info* stbir_info, int n)$/;"	f
+stbir__decode_and_resample_upsample	include/stb_image/stb_image_resize.h	/^static void stbir__decode_and_resample_upsample(stbir__info* stbir_info, int n)$/;"	f
+stbir__decode_scanline	include/stb_image/stb_image_resize.h	/^static void stbir__decode_scanline(stbir__info* stbir_info, int n)$/;"	f
+stbir__edge_wrap	include/stb_image/stb_image_resize.h	/^stbir__inline static int stbir__edge_wrap(stbir_edge edge, int n, int max)$/;"	f
+stbir__edge_wrap_slow	include/stb_image/stb_image_resize.h	/^static int stbir__edge_wrap_slow(stbir_edge edge, int n, int max)$/;"	f
+stbir__empty_ring_buffer	include/stb_image/stb_image_resize.h	/^static void stbir__empty_ring_buffer(stbir__info* stbir_info, int first_necessary_scanline)$/;"	f
+stbir__encode_scanline	include/stb_image/stb_image_resize.h	/^static void stbir__encode_scanline(stbir__info* stbir_info, int num_pixels, void *output_buffer, float *encode_buffer, int channels, int alpha_channel, int decode)$/;"	f
+stbir__filter_catmullrom	include/stb_image/stb_image_resize.h	/^static float stbir__filter_catmullrom(float x, float s)$/;"	f
+stbir__filter_cubic	include/stb_image/stb_image_resize.h	/^static float stbir__filter_cubic(float x, float s)$/;"	f
+stbir__filter_info	include/stb_image/stb_image_resize.h	/^} stbir__filter_info;$/;"	t	typeref:struct:__anon6
+stbir__filter_info_table	include/stb_image/stb_image_resize.h	/^static stbir__filter_info stbir__filter_info_table[] = {$/;"	v
+stbir__filter_mitchell	include/stb_image/stb_image_resize.h	/^static float stbir__filter_mitchell(float x, float s)$/;"	f
+stbir__filter_trapezoid	include/stb_image/stb_image_resize.h	/^static float stbir__filter_trapezoid(float x, float scale)$/;"	f
+stbir__filter_triangle	include/stb_image/stb_image_resize.h	/^static float stbir__filter_triangle(float x, float s)$/;"	f
+stbir__get_coefficient	include/stb_image/stb_image_resize.h	/^static float* stbir__get_coefficient(float* coefficients, stbir_filter filter, float scale, int n, int c)$/;"	f
+stbir__get_coefficient_width	include/stb_image/stb_image_resize.h	/^static int stbir__get_coefficient_width(stbir_filter filter, float scale)$/;"	f
+stbir__get_contributor	include/stb_image/stb_image_resize.h	/^static stbir__contributors* stbir__get_contributor(stbir__contributors* contributors, int n)$/;"	f
+stbir__get_contributors	include/stb_image/stb_image_resize.h	/^static int stbir__get_contributors(float scale, stbir_filter filter, int input_size, int output_size)$/;"	f
+stbir__get_decode_buffer	include/stb_image/stb_image_resize.h	/^static float* stbir__get_decode_buffer(stbir__info* stbir_info)$/;"	f
+stbir__get_filter_pixel_margin	include/stb_image/stb_image_resize.h	/^static int stbir__get_filter_pixel_margin(stbir_filter filter, float scale)$/;"	f
+stbir__get_filter_pixel_width	include/stb_image/stb_image_resize.h	/^static int stbir__get_filter_pixel_width(stbir_filter filter, float scale)$/;"	f
+stbir__get_ring_buffer_entry	include/stb_image/stb_image_resize.h	/^static float* stbir__get_ring_buffer_entry(float* ring_buffer, int index, int ring_buffer_length)$/;"	f
+stbir__get_ring_buffer_scanline	include/stb_image/stb_image_resize.h	/^static float* stbir__get_ring_buffer_scanline(int get_scanline, float* ring_buffer, int begin_index, int first_scanline, int ring_buffer_num_entries, int ring_buffer_length)$/;"	f
+stbir__get_total_horizontal_coefficients	include/stb_image/stb_image_resize.h	/^static int stbir__get_total_horizontal_coefficients(stbir__info* info)$/;"	f
+stbir__get_total_vertical_coefficients	include/stb_image/stb_image_resize.h	/^static int stbir__get_total_vertical_coefficients(stbir__info* info)$/;"	f
+stbir__info	include/stb_image/stb_image_resize.h	/^} stbir__info;$/;"	t	typeref:struct:__anon8
+stbir__inline	include/stb_image/stb_image_resize.h	/^#define stbir__inline /;"	d
+stbir__inline	include/stb_image/stb_image_resize.h	/^#define stbir__inline$/;"	d
+stbir__kernel_fn	include/stb_image/stb_image_resize.h	/^typedef float (stbir__kernel_fn)(float x, float scale);$/;"	t
+stbir__linear_to_srgb	include/stb_image/stb_image_resize.h	/^static float stbir__linear_to_srgb(float f)$/;"	f
+stbir__linear_to_srgb_uchar	include/stb_image/stb_image_resize.h	/^static stbir_uint8 stbir__linear_to_srgb_uchar(float f)$/;"	f
+stbir__linear_to_srgb_uchar	include/stb_image/stb_image_resize.h	/^static stbir_uint8 stbir__linear_to_srgb_uchar(float in)$/;"	f
+stbir__max_uint16_as_float	include/stb_image/stb_image_resize.h	/^static const float stbir__max_uint16_as_float = 65535.0f;$/;"	v
+stbir__max_uint32_as_float	include/stb_image/stb_image_resize.h	/^static const double stbir__max_uint32_as_float = 4294967295.0;$/;"	v
+stbir__max_uint8_as_float	include/stb_image/stb_image_resize.h	/^static const float stbir__max_uint8_as_float  = 255.0f;$/;"	v
+stbir__min	include/stb_image/stb_image_resize.h	/^static stbir__inline int stbir__min(int a, int b)$/;"	f
+stbir__normalize_downsample_coefficients	include/stb_image/stb_image_resize.h	/^static void stbir__normalize_downsample_coefficients(stbir__contributors* contributors, float* coefficients, stbir_filter filter, float scale_ratio, int input_size, int output_size)$/;"	f
+stbir__resample_horizontal_downsample	include/stb_image/stb_image_resize.h	/^static void stbir__resample_horizontal_downsample(stbir__info* stbir_info, float* output_buffer)$/;"	f
+stbir__resample_horizontal_upsample	include/stb_image/stb_image_resize.h	/^static void stbir__resample_horizontal_upsample(stbir__info* stbir_info, float* output_buffer)$/;"	f
+stbir__resample_vertical_downsample	include/stb_image/stb_image_resize.h	/^static void stbir__resample_vertical_downsample(stbir__info* stbir_info, int n)$/;"	f
+stbir__resample_vertical_upsample	include/stb_image/stb_image_resize.h	/^static void stbir__resample_vertical_upsample(stbir__info* stbir_info, int n)$/;"	f
+stbir__resize_allocated	include/stb_image/stb_image_resize.h	/^static int stbir__resize_allocated(stbir__info *info,$/;"	f
+stbir__resize_arbitrary	include/stb_image/stb_image_resize.h	/^static int stbir__resize_arbitrary($/;"	f
+stbir__saturate	include/stb_image/stb_image_resize.h	/^static stbir__inline float stbir__saturate(float x)$/;"	f
+stbir__saturate16	include/stb_image/stb_image_resize.h	/^static stbir__inline stbir_uint16 stbir__saturate16(int x)$/;"	f
+stbir__saturate8	include/stb_image/stb_image_resize.h	/^static stbir__inline stbir_uint8 stbir__saturate8(int x)$/;"	f
+stbir__setup	include/stb_image/stb_image_resize.h	/^static void stbir__setup(stbir__info *info, int input_w, int input_h, int output_w, int output_h, int channels)$/;"	f
+stbir__srgb_offset_to_linear_scaled	include/stb_image/stb_image_resize.h	/^static int stbir__srgb_offset_to_linear_scaled[256] =$/;"	v
+stbir__srgb_to_linear	include/stb_image/stb_image_resize.h	/^static float stbir__srgb_to_linear(float f)$/;"	f
+stbir__srgb_uchar_to_linear_float	include/stb_image/stb_image_resize.h	/^static float stbir__srgb_uchar_to_linear_float[256] = {$/;"	v
+stbir__support_fn	include/stb_image/stb_image_resize.h	/^typedef float (stbir__support_fn)(float scale);$/;"	t
+stbir__support_one	include/stb_image/stb_image_resize.h	/^static float stbir__support_one(float s)$/;"	f
+stbir__support_trapezoid	include/stb_image/stb_image_resize.h	/^static float stbir__support_trapezoid(float scale)$/;"	f
+stbir__support_two	include/stb_image/stb_image_resize.h	/^static float stbir__support_two(float s)$/;"	f
+stbir__support_zero	include/stb_image/stb_image_resize.h	/^static float stbir__support_zero(float s)$/;"	f
+stbir__type_size	include/stb_image/stb_image_resize.h	/^static unsigned char stbir__type_size[] = {$/;"	v
+stbir__use_height_upsampling	include/stb_image/stb_image_resize.h	/^stbir__inline static int stbir__use_height_upsampling(stbir__info* stbir_info)$/;"	f
+stbir__use_upsampling	include/stb_image/stb_image_resize.h	/^stbir__inline static int stbir__use_upsampling(float ratio)$/;"	f
+stbir__use_width_upsampling	include/stb_image/stb_image_resize.h	/^stbir__inline static int stbir__use_width_upsampling(stbir__info* stbir_info)$/;"	f
+stbir__validate_uint32	include/stb_image/stb_image_resize.h	/^typedef unsigned char stbir__validate_uint32[sizeof(stbir_uint32) == 4 ? 1 : -1];$/;"	t
+stbir_colorspace	include/stb_image/stb_image_resize.h	/^} stbir_colorspace;$/;"	t	typeref:enum:__anon4
+stbir_datatype	include/stb_image/stb_image_resize.h	/^} stbir_datatype;$/;"	t	typeref:enum:__anon5
+stbir_edge	include/stb_image/stb_image_resize.h	/^} stbir_edge;$/;"	t	typeref:enum:__anon2
+stbir_filter	include/stb_image/stb_image_resize.h	/^} stbir_filter;$/;"	t	typeref:enum:__anon3
+stbir_resize	include/stb_image/stb_image_resize.h	/^STBIRDEF int stbir_resize(         const void *input_pixels , int input_w , int input_h , int input_stride_in_bytes,$/;"	f
+stbir_resize_float	include/stb_image/stb_image_resize.h	/^STBIRDEF int stbir_resize_float(     const float *input_pixels , int input_w , int input_h , int input_stride_in_bytes,$/;"	f
+stbir_resize_float_generic	include/stb_image/stb_image_resize.h	/^STBIRDEF int stbir_resize_float_generic( const float *input_pixels         , int input_w , int input_h , int input_stride_in_bytes,$/;"	f
+stbir_resize_region	include/stb_image/stb_image_resize.h	/^STBIRDEF int stbir_resize_region(  const void *input_pixels , int input_w , int input_h , int input_stride_in_bytes,$/;"	f
+stbir_resize_subpixel	include/stb_image/stb_image_resize.h	/^STBIRDEF int stbir_resize_subpixel(const void *input_pixels , int input_w , int input_h , int input_stride_in_bytes,$/;"	f
+stbir_resize_uint16_generic	include/stb_image/stb_image_resize.h	/^STBIRDEF int stbir_resize_uint16_generic(const stbir_uint16 *input_pixels  , int input_w , int input_h , int input_stride_in_bytes,$/;"	f
+stbir_resize_uint8	include/stb_image/stb_image_resize.h	/^STBIRDEF int stbir_resize_uint8(     const unsigned char *input_pixels , int input_w , int input_h , int input_stride_in_bytes,$/;"	f
+stbir_resize_uint8_generic	include/stb_image/stb_image_resize.h	/^STBIRDEF int stbir_resize_uint8_generic( const unsigned char *input_pixels , int input_w , int input_h , int input_stride_in_bytes,$/;"	f
+stbir_resize_uint8_srgb	include/stb_image/stb_image_resize.h	/^STBIRDEF int stbir_resize_uint8_srgb(const unsigned char *input_pixels , int input_w , int input_h , int input_stride_in_bytes,$/;"	f
+stbir_resize_uint8_srgb_edgemode	include/stb_image/stb_image_resize.h	/^STBIRDEF int stbir_resize_uint8_srgb_edgemode(const unsigned char *input_pixels , int input_w , int input_h , int input_stride_in_bytes,$/;"	f
+stbir_uint16	include/stb_image/stb_image_resize.h	/^typedef uint16_t stbir_uint16;$/;"	t
+stbir_uint16	include/stb_image/stb_image_resize.h	/^typedef unsigned short stbir_uint16;$/;"	t
+stbir_uint32	include/stb_image/stb_image_resize.h	/^typedef uint32_t stbir_uint32;$/;"	t
+stbir_uint32	include/stb_image/stb_image_resize.h	/^typedef unsigned int   stbir_uint32;$/;"	t
+stbir_uint8	include/stb_image/stb_image_resize.h	/^typedef uint8_t  stbir_uint8;$/;"	t
+stbir_uint8	include/stb_image/stb_image_resize.h	/^typedef unsigned char  stbir_uint8;$/;"	t
+stbiw__ZHASH	include/stb_image/stb_image_write.h	/^#define stbiw__ZHASH /;"	d
+stbiw__crc32	include/stb_image/stb_image_write.h	/^static unsigned int stbiw__crc32(unsigned char *buffer, int len)$/;"	f
+stbiw__encode_png_line	include/stb_image/stb_image_write.h	/^static void stbiw__encode_png_line(unsigned char *pixels, int stride_bytes, int width, int height, int y, int n, int filter_type, signed char *line_buffer)$/;"	f
+stbiw__fopen	include/stb_image/stb_image_write.h	/^static FILE *stbiw__fopen(char const *filename, char const *mode)$/;"	f
+stbiw__jpg_DCT	include/stb_image/stb_image_write.h	/^static void stbiw__jpg_DCT(float *d0p, float *d1p, float *d2p, float *d3p, float *d4p, float *d5p, float *d6p, float *d7p) {$/;"	f
+stbiw__jpg_ZigZag	include/stb_image/stb_image_write.h	/^static const unsigned char stbiw__jpg_ZigZag[] = { 0,1,5,6,14,15,27,28,2,4,7,13,16,26,29,42,3,8,12,17,25,30,41,43,9,11,18,$/;"	v
+stbiw__jpg_calcBits	include/stb_image/stb_image_write.h	/^static void stbiw__jpg_calcBits(int val, unsigned short bits[2]) {$/;"	f
+stbiw__jpg_processDU	include/stb_image/stb_image_write.h	/^static int stbiw__jpg_processDU(stbi__write_context *s, int *bitBuf, int *bitCnt, float *CDU, int du_stride, float *fdtbl, int DC, const unsigned short HTDC[256][2], const unsigned short HTAC[256][2]) {$/;"	f
+stbiw__jpg_writeBits	include/stb_image/stb_image_write.h	/^static void stbiw__jpg_writeBits(stbi__write_context *s, int *bitBufP, int *bitCntP, const unsigned short *bs) {$/;"	f
+stbiw__linear_to_rgbe	include/stb_image/stb_image_write.h	/^static void stbiw__linear_to_rgbe(unsigned char *rgbe, float *linear)$/;"	f
+stbiw__max	include/stb_image/stb_image_write.h	/^#define stbiw__max(/;"	d
+stbiw__outfile	include/stb_image/stb_image_write.h	/^static int stbiw__outfile(stbi__write_context *s, int rgb_dir, int vdir, int x, int y, int comp, int expand_mono, void *data, int alpha, int pad, const char *fmt, ...)$/;"	f
+stbiw__paeth	include/stb_image/stb_image_write.h	/^static unsigned char stbiw__paeth(int a, int b, int c)$/;"	f
+stbiw__putc	include/stb_image/stb_image_write.h	/^static void stbiw__putc(stbi__write_context *s, unsigned char c)$/;"	f
+stbiw__sbcount	include/stb_image/stb_image_write.h	/^#define stbiw__sbcount(/;"	d
+stbiw__sbfree	include/stb_image/stb_image_write.h	/^#define stbiw__sbfree(/;"	d
+stbiw__sbgrow	include/stb_image/stb_image_write.h	/^#define stbiw__sbgrow(/;"	d
+stbiw__sbgrowf	include/stb_image/stb_image_write.h	/^static void *stbiw__sbgrowf(void **arr, int increment, int itemsize)$/;"	f
+stbiw__sbm	include/stb_image/stb_image_write.h	/^#define stbiw__sbm(/;"	d
+stbiw__sbmaybegrow	include/stb_image/stb_image_write.h	/^#define stbiw__sbmaybegrow(/;"	d
+stbiw__sbn	include/stb_image/stb_image_write.h	/^#define stbiw__sbn(/;"	d
+stbiw__sbneedgrow	include/stb_image/stb_image_write.h	/^#define stbiw__sbneedgrow(/;"	d
+stbiw__sbpush	include/stb_image/stb_image_write.h	/^#define stbiw__sbpush(/;"	d
+stbiw__sbraw	include/stb_image/stb_image_write.h	/^#define stbiw__sbraw(/;"	d
+stbiw__wp32	include/stb_image/stb_image_write.h	/^#define stbiw__wp32(/;"	d
+stbiw__wpcrc	include/stb_image/stb_image_write.h	/^static void stbiw__wpcrc(unsigned char **data, int len)$/;"	f
+stbiw__wpng4	include/stb_image/stb_image_write.h	/^#define stbiw__wpng4(/;"	d
+stbiw__wptag	include/stb_image/stb_image_write.h	/^#define stbiw__wptag(/;"	d
+stbiw__write1	include/stb_image/stb_image_write.h	/^static void stbiw__write1(stbi__write_context *s, unsigned char a)$/;"	f
+stbiw__write3	include/stb_image/stb_image_write.h	/^static void stbiw__write3(stbi__write_context *s, unsigned char a, unsigned char b, unsigned char c)$/;"	f
+stbiw__write_dump_data	include/stb_image/stb_image_write.h	/^static void stbiw__write_dump_data(stbi__write_context *s, int length, unsigned char *data)$/;"	f
+stbiw__write_flush	include/stb_image/stb_image_write.h	/^static void stbiw__write_flush(stbi__write_context *s)$/;"	f
+stbiw__write_hdr_scanline	include/stb_image/stb_image_write.h	/^static void stbiw__write_hdr_scanline(stbi__write_context *s, int width, int ncomp, unsigned char *scratch, float *scanline)$/;"	f
+stbiw__write_pixel	include/stb_image/stb_image_write.h	/^static void stbiw__write_pixel(stbi__write_context *s, int rgb_dir, int comp, int write_alpha, int expand_mono, unsigned char *d)$/;"	f
+stbiw__write_pixels	include/stb_image/stb_image_write.h	/^static void stbiw__write_pixels(stbi__write_context *s, int rgb_dir, int vdir, int x, int y, int comp, void *data, int write_alpha, int scanline_pad, int expand_mono)$/;"	f
+stbiw__write_run_data	include/stb_image/stb_image_write.h	/^static void stbiw__write_run_data(stbi__write_context *s, int length, unsigned char databyte)$/;"	f
+stbiw__writef	include/stb_image/stb_image_write.h	/^static void stbiw__writef(stbi__write_context *s, const char *fmt, ...)$/;"	f
+stbiw__writefv	include/stb_image/stb_image_write.h	/^static void stbiw__writefv(stbi__write_context *s, const char *fmt, va_list v)$/;"	f
+stbiw__zhash	include/stb_image/stb_image_write.h	/^static unsigned int stbiw__zhash(unsigned char *data)$/;"	f
+stbiw__zlib_add	include/stb_image/stb_image_write.h	/^#define stbiw__zlib_add(/;"	d
+stbiw__zlib_bitrev	include/stb_image/stb_image_write.h	/^static int stbiw__zlib_bitrev(int code, int codebits)$/;"	f
+stbiw__zlib_countm	include/stb_image/stb_image_write.h	/^static unsigned int stbiw__zlib_countm(unsigned char *a, unsigned char *b, int limit)$/;"	f
+stbiw__zlib_flush	include/stb_image/stb_image_write.h	/^#define stbiw__zlib_flush(/;"	d
+stbiw__zlib_flushf	include/stb_image/stb_image_write.h	/^static unsigned char *stbiw__zlib_flushf(unsigned char *data, unsigned int *bitbuffer, int *bitcount)$/;"	f
+stbiw__zlib_huff	include/stb_image/stb_image_write.h	/^#define stbiw__zlib_huff(/;"	d
+stbiw__zlib_huff1	include/stb_image/stb_image_write.h	/^#define stbiw__zlib_huff1(/;"	d
+stbiw__zlib_huff2	include/stb_image/stb_image_write.h	/^#define stbiw__zlib_huff2(/;"	d
+stbiw__zlib_huff3	include/stb_image/stb_image_write.h	/^#define stbiw__zlib_huff3(/;"	d
+stbiw__zlib_huff4	include/stb_image/stb_image_write.h	/^#define stbiw__zlib_huff4(/;"	d
+stbiw__zlib_huffa	include/stb_image/stb_image_write.h	/^#define stbiw__zlib_huffa(/;"	d
+stbiw__zlib_huffb	include/stb_image/stb_image_write.h	/^#define stbiw__zlib_huffb(/;"	d
+stbiw_convert_wchar_to_utf8	include/stb_image/stb_image_write.h	/^STBIWDEF int stbiw_convert_wchar_to_utf8(char *buffer, size_t bufferlen, const wchar_t* input)$/;"	f
+stbiw_uint32	include/stb_image/stb_image_write.h	/^typedef unsigned int stbiw_uint32;$/;"	t
+step	include/stb_image/stb_image.h	/^   int parse, step;$/;"	m	struct:__anon28
+succ_high	include/stb_image/stb_image.h	/^   int            succ_high;$/;"	m	struct:__anon17
+succ_low	include/stb_image/stb_image.h	/^   int            succ_low;$/;"	m	struct:__anon17
+suffix	include/stb_image/stb_image.h	/^   stbi_uc suffix;$/;"	m	struct:__anon27
+support	include/stb_image/stb_image_resize.h	/^    stbir__support_fn* support;$/;"	m	struct:__anon6
+t0	include/stb_image/stb_image_resize.h	/^    float s0, t0, s1, t1;$/;"	m	struct:__anon8
+t1	include/stb_image/stb_image_resize.h	/^    float s0, t0, s1, t1;$/;"	m	struct:__anon8
+todo	include/stb_image/stb_image.h	/^   int restart_interval, todo;$/;"	m	struct:__anon17
+tq	include/stb_image/stb_image.h	/^      int tq;$/;"	m	struct:__anon17::__anon18
+transparent	include/stb_image/stb_image.h	/^   int flags, bgindex, ratio, transparent, eflags;$/;"	m	struct:__anon28
+type	include/stb_image/stb_image.h	/^   stbi__uint32 type;$/;"	m	struct:__anon22
+type	include/stb_image/stb_image.h	/^   stbi_uc size,type,channel;$/;"	m	struct:__anon26
+type	include/stb_image/stb_image_resize.h	/^    stbir_datatype type;$/;"	m	struct:__anon8
+u	include/stb_image/stb_image_resize.h	/^    stbir_uint32 u;$/;"	m	union:__anon9
+v	include/stb_image/stb_image.h	/^      int h,v;$/;"	m	struct:__anon17::__anon18
+vCCPREFIX	Makefile	/^vCCPREFIX = $/;"	m
+vCILENCE	Makefile	/^    vCILENCE := @$/;"	m
+vCILENCE	Makefile	/^    vCILENCE :=$/;"	m
+vCILENCE	Makefile	/^vCILENCE ?= ERROR$/;"	m
+vINCLUDE	Makefile	/^vINCLUDE  = -I$(vPRJPATH)\/include\/$/;"	m
+vLIB	Makefile	/^vLIB  = -lstdc++$/;"	m
+vLIBPATH	Makefile	/^vLIBPATH  = $/;"	m
+vPRJPATH	Makefile	/^vPRJPATH = .$/;"	m
+vSOURCE	Makefile	/^vSOURCE  = $(vPRJPATH)\/src\/*.c$/;"	m
+vTARGET	Makefile	/^vTARGET = $(vPRJPATH)\/bin\/image_self$/;"	m
+validate_uint32	include/stb_image/stb_image.h	/^typedef unsigned char validate_uint32[sizeof(stbi__uint32)==4 ? 1 : -1];$/;"	t
+value	include/stb_image/stb_image.h	/^   stbi__uint16 value[288];$/;"	m	struct:__anon20
+values	include/stb_image/stb_image.h	/^   stbi_uc  values[256];$/;"	m	struct:__anon16
+vertical_coefficient_width	include/stb_image/stb_image_resize.h	/^    int vertical_coefficient_width;$/;"	m	struct:__anon8
+vertical_coefficients	include/stb_image/stb_image_resize.h	/^    float* vertical_coefficients;$/;"	m	struct:__anon8
+vertical_coefficients_size	include/stb_image/stb_image_resize.h	/^    int vertical_coefficients_size;$/;"	m	struct:__anon8
+vertical_contributors	include/stb_image/stb_image_resize.h	/^    stbir__contributors* vertical_contributors;$/;"	m	struct:__anon8
+vertical_contributors_size	include/stb_image/stb_image_resize.h	/^    int vertical_contributors_size;$/;"	m	struct:__anon8
+vertical_filter	include/stb_image/stb_image_resize.h	/^    stbir_filter vertical_filter;$/;"	m	struct:__anon8
+vertical_filter_pixel_margin	include/stb_image/stb_image_resize.h	/^    int vertical_filter_pixel_margin;$/;"	m	struct:__anon8
+vertical_filter_pixel_width	include/stb_image/stb_image_resize.h	/^    int vertical_filter_pixel_width;$/;"	m	struct:__anon8
+vertical_num_contributors	include/stb_image/stb_image_resize.h	/^    int vertical_num_contributors;$/;"	m	struct:__anon8
+vertical_scale	include/stb_image/stb_image_resize.h	/^    float vertical_scale;$/;"	m	struct:__anon8
+vertical_shift	include/stb_image/stb_image_resize.h	/^    float vertical_shift;   \/\/ Units: output pixels$/;"	m	struct:__anon8
+vs	include/stb_image/stb_image.h	/^   int hs,vs;   \/\/ expansion factor in each axis$/;"	m	struct:__anon19
+w	include/stb_image/stb_image.h	/^   int w,h;$/;"	m	struct:__anon28
+w2	include/stb_image/stb_image.h	/^      int x,y,w2,h2;$/;"	m	struct:__anon17::__anon18
+w_lores	include/stb_image/stb_image.h	/^   int w_lores; \/\/ horizontal pixels pre-expansion$/;"	m	struct:__anon19
+x	include/stb_image/stb_image.h	/^      int x,y,w2,h2;$/;"	m	struct:__anon17::__anon18
+y	include/stb_image/stb_image.h	/^      int x,y,w2,h2;$/;"	m	struct:__anon17::__anon18
+ypos	include/stb_image/stb_image.h	/^   int ypos;    \/\/ which pre-expansion row we're on$/;"	m	struct:__anon19
+ystep	include/stb_image/stb_image.h	/^   int ystep;   \/\/ how far through vertical expansion we are$/;"	m	struct:__anon19
+z_distance	include/stb_image/stb_image.h	/^   stbi__zhuffman z_length, z_distance;$/;"	m	struct:__anon21
+z_expandable	include/stb_image/stb_image.h	/^   int   z_expandable;$/;"	m	struct:__anon21
+z_length	include/stb_image/stb_image.h	/^   stbi__zhuffman z_length, z_distance;$/;"	m	struct:__anon21
+zbuffer	include/stb_image/stb_image.h	/^   stbi_uc *zbuffer, *zbuffer_end;$/;"	m	struct:__anon21
+zbuffer_end	include/stb_image/stb_image.h	/^   stbi_uc *zbuffer, *zbuffer_end;$/;"	m	struct:__anon21
+zout	include/stb_image/stb_image.h	/^   char *zout;$/;"	m	struct:__anon21
+zout_end	include/stb_image/stb_image.h	/^   char *zout_end;$/;"	m	struct:__anon21
+zout_start	include/stb_image/stb_image.h	/^   char *zout_start;$/;"	m	struct:__anon21
