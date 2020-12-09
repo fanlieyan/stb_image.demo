@@ -81,94 +81,95 @@ typedef unsigned char cchar;
 #endif
 
 int get_image_size(const char *pInPath, cchar **ppOutImgData, int *pOutW, int *pOutH, int *pOutChn){
-	RET_R(!pInPath, ERR);
-	//RET_R(!pOutW, ERR);
-	//RET_R(!pOutH, ERR);
-	//RET_R(!pOutCHn, ERR);
+    RET_R(!pInPath, ERR);
+    //RET_R(!pOutW, ERR);
+    //RET_R(!pOutH, ERR);
+    //RET_R(!pOutCHn, ERR);
 
-	cchar *pImageData = NULL;
-	int iWidth = 0;
-	int iHeight = 0;
-	int iColorChn = 0;
+    cchar *pImageData = NULL;
+    int iWidth = 0;
+    int iHeight = 0;
+    int iColorChn = 0;
 
-	pImageData = stbi_load(pInPath, &iWidth, &iHeight, &iColorChn, 0);
-	RET_R(!pImageData, ERR);
+    pImageData = stbi_load(pInPath, &iWidth, &iHeight, &iColorChn, 0);
+    RET_R(!pImageData, ERR);
 
-	PDBG_I(iWidth);
-	PDBG_I(iHeight);
-	PDBG_I(iColorChn);
+    PDBG_I(iWidth);
+    PDBG_I(iHeight);
+    PDBG_I(iColorChn);
 	
-	if(pOutW){
-		*pOutW = iWidth;
-	}
+    if(pOutW){
+        *pOutW = iWidth;
+    }
 
-	if(pOutH){
-		*pOutH = iHeight;
-	}
+    if(pOutH){
+        *pOutH = iHeight;
+    }
 
-	if(pOutChn){
-		*pOutChn = iColorChn;
-	}
+    if(pOutChn){
+        *pOutChn = iColorChn;
+    }
 
-	if(ppOutImgData){
-		*ppOutImgData = pImageData;
-	}else{
-		stbi_image_free(pImageData);
-	}
-	return OK;
+    if(ppOutImgData){
+        *ppOutImgData = pImageData;
+    }else{
+        stbi_image_free(pImageData);
+    }
+
+    return OK;
 }
 
 int resize_image(const char *pInPath, const char *pOutPath, const float lResizeRate){
-	RET_R(!pInPath, ERR);
-	RET_R(!pOutPath, ERR);
+    RET_R(!pInPath, ERR);
+    RET_R(!pOutPath, ERR);
 
-	cchar *pImageData = NULL;
-	cchar *pOutImageData = NULL;
-	int iRet = 0;
-	int iWidth = 0;
-	int iHeight = 0;
-	int iOutWidth = 0;
-	int iOutHeight = 0;
-	int iColorChn = 0;
+    cchar *pImageData = NULL;
+    cchar *pOutImageData = NULL;
+    int iRet = 0;
+    int iWidth = 0;
+    int iHeight = 0;
+    int iOutWidth = 0;
+    int iOutHeight = 0;
+    int iColorChn = 0;
 
-	iRet = get_image_size(pInPath, &pImageData, &iWidth, &iHeight, &iColorChn);
-	RET_R(iRet != OK, ERR);
+    iRet = get_image_size(pInPath, &pImageData, &iWidth, &iHeight, &iColorChn);
+    RET_R(iRet != OK, ERR);
 
-	iOutWidth = iWidth*lResizeRate;
-	iOutHeight = iHeight*lResizeRate;
+    iOutWidth = iWidth*lResizeRate;
+    iOutHeight = iHeight*lResizeRate;
 
-	pOutImageData = (cchar *)calloc(1, iOutWidth * iOutHeight * iColorChn);
-	RET_R(!pOutImageData, ERR);
+    pOutImageData = (cchar *)calloc(1, iOutWidth * iOutHeight * iColorChn);
+    RET_R(!pOutImageData, ERR);
 	
-	stbir_resize(pImageData, iWidth, iHeight, 0, pOutImageData, iOutWidth, iOutHeight, 0, 
-				STBIR_TYPE_UINT8, iColorChn, STBIR_ALPHA_CHANNEL_NONE, 0,
-				STBIR_EDGE_CLAMP, STBIR_EDGE_CLAMP,
-				STBIR_FILTER_BOX, STBIR_FILTER_BOX,
-				STBIR_COLORSPACE_SRGB, NULL);
+    stbir_resize(pImageData, iWidth, iHeight, 0, pOutImageData, iOutWidth, iOutHeight, 0, 
+                STBIR_TYPE_UINT8, iColorChn, STBIR_ALPHA_CHANNEL_NONE, 0,
+                STBIR_EDGE_CLAMP, STBIR_EDGE_CLAMP,
+                STBIR_FILTER_BOX, STBIR_FILTER_BOX,
+                STBIR_COLORSPACE_SRGB, NULL);
 	
-	stbi_write_png(pOutPath, iOutWidth, iOutHeight, iColorChn, pOutImageData, 0);
+    stbi_write_png(pOutPath, iOutWidth, iOutHeight, iColorChn, pOutImageData, 0);
 
-	stbi_image_free(pImageData);
-	stbi_image_free(pOutImageData);
-	return OK;
+    stbi_image_free(pImageData);
+    stbi_image_free(pOutImageData);
+    return OK;
 }
 
 int main(int argc, char **argv){
     PDBG_S("START!");
 
-	RET_R(argc < 3, ERR);
+    RET_R(argc < 3, ERR);
 
-	switch(argv[1][0]){
-		case '1':
-			get_image_size(argv[2], NULL, NULL, NULL, NULL);
-			break;
-		case '2':
-			resize_image(argv[2], argv[3], argv[4]?atoi(argv[4]):2);
-			break;
-		default:
-			POUT_S("Not support argv[1].");
-			break;
-	}
+    switch(argv[1][0]){
+        case '1':
+            get_image_size(argv[2], NULL, NULL, NULL, NULL);
+            break;
+        case '2':
+            resize_image(argv[2], argv[3], argv[4]?atoi(argv[4]):2);
+            break;
+        default:
+            POUT_S("Not support argv[1].");
+            break;
+    }
 
     return OK;
 }
